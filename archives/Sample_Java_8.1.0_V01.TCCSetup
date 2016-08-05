@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<setup encoding="UTF-8" version="1.0.0.0">
+<associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="Thu Sep 03 14:49:01 EDT 2015" encoding="UTF-8" version="1.0.0.0" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name=".NET Inherited Form" type="Transaction entry points">
+  <argument name="type">
+   <value>NET_INHERITED_FORM</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name=".NET Inherited User Control" type="Transaction entry points">
+  <argument name="type">
+   <value>NET_INHERITED_USER_CONTROL</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB Designer Files" type="Transaction entry points">
+  <argument name="type">
+   <value>VB_DESIGNER</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="PB Window" type="Transaction entry points">
+  <argument name="type">
+   <value>PB_WINDOW</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB Form - legacy" type="Transaction entry points">
+  <argument name="type">
+   <value>VB_FORM</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name=".NET Form" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_ClassExternalForm</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="C# User Control" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_ClassCSharpUserControl</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB Property Page" type="Transaction entry points">
+  <argument name="type">
+   <value>VB_PROPERTY_PAGE</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name=".NET Form - legacy" type="Transaction entry points">
+  <argument name="type">
+   <value>NET_FORM</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB User Control" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_ClassVBUserControl</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB User Document" type="Transaction entry points">
+  <argument name="type">
+   <value>VB_USER_DOC</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB User Control - legacy" type="Transaction entry points">
+  <argument name="type">
+   <value>VB_USER_CONTROL</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Delphi Form" type="Transaction entry points">
+  <argument name="type">
+   <value>DELPHI_FORM</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB Custom Control - legacy" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_ClassVBCustomControl</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB MDI Form" type="Transaction entry points">
+  <argument name="type">
+   <value>VB_MDI_FORM</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name=".NET Web Custom Control" type="Transaction entry points">
+  <argument name="type">
+   <value>NET_WEB_CUSTOM_CONTROL</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="C# Form" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_ClassCSharpForm</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name=".NET User Control - legacy" type="Transaction entry points">
+  <argument name="type">
+   <value>NET_USER_CONTROL</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Oracle Forms Module" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_Forms_Module</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="C# Custom Control - legacy" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_ClassCSharpCustomControl</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="VB Form" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_ClassVBForm</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Ascx Source File" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_AscxFile</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Oracle Report Module" type="Transaction entry points">
+  <argument name="type">
+   <value>FORMS_RDF_MODULE</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="CICS Transaction" type="Transaction entry points">
+  <argument name="type">
+   <value>CICS_TRANSACTION</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="SAP Transaction" type="Transaction entry points">
+  <argument name="type">
+   <value>SAPTransaction</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Asmx Source File" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_AsmxFile</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="JCL Job - legacy" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_JCL_CatalogedJob</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Oracle Forms Module" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_Forms_Module</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="JSF Input Field" type="Transaction entry points">
+  <argument name="type">
+   <value>JSF_INPUT_FIELD</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="BO Class" type="Transaction entry points">
+  <argument name="type">
+   <value>BO_CLASS</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Aspx Source File" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_AspxFile</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Web service" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_DotNet_ClassCSharpWebService</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="eFile" type="Transaction entry points">
+  <argument name="type">
+   <value>CAST_Web_File</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java com.enterprisedt.net.ftp (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name="fullname" operator="eq">
+    <value>com.enterprisedt.net.ftp.FTPFile</value>
+    <value>com.enterprisedt.net.ftp.FTPReply</value>
+    <value>com.enterprisedt.net.ftp.FTPClient</value>
+    <value>com.enterprisedt.net.ftp.VMSFileParser</value>
+    <value>com.enterprisedt.net.ftp.FTPFileFactory</value>
+    <value>com.enterprisedt.net.ftp.UnixFileParser</value>
+    <value>com.enterprisedt.net.ftp.WindowsFileParser</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java com.enterprisedt.net.ftp" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level="20">
+    <link-type>Call</link-type>
+    <member-of set="Custom End Point Java com.enterprisedt.net.ftp (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom End Point Java com.sun.msv (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name="fullname" operator="eq">
+    <value>com.sun.msv.reader</value>
+    <value>com.sun.msv.relaxns.grammar</value>
+    <value>com.sun.msv.relaxns.reader</value>
+    <value>com.sun.msv.writer</value>
+    <value>com.sun.msv.writer.relaxng</value>
+    <value>com.sun.msv.writer.relaxng.PatternWriter%</value>
+    <value>com.sun.msv.writer.relaxng.RELAXNGWriter%</value>
+    <value>com.sun.msv.scanner.dtd.XmlReader</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java com.sun.msv" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level="20">
+    <link-type>Call</link-type>
+    <member-of set="Custom End Point Java com.sun.msv (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java com.sun.msv (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java com.sun.msv (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom Entry Point Java java.applet (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>CAST_Java_Applet</value>
+    <value>JV_APPLET</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>java.applet%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point Java Applet" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Java_Applet</value>
+    <value>JV_APPLET</value>
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom Entry Point Java java.applet (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom Entry Point Java java.applet (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom Entry Point Java java.applet (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point Java AWT Screens" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>CAST_Java_Applet</value>
+    <value>JV_APPLET</value>
+   </property>
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom Entry Point Java java.awt (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom Entry Point Java java.awt (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom Entry Point Java java.awt (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point Java java.awt (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Java_Applet</value>
+    <value>JV_APPLET</value>
+    <value>JV_CLASS</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>java.awt.Panel%</value>
+    <value>java.awt.Label%</value>
+    <value>java.awt.ScrollPane%</value>
+    <value>java.awt.Insets%</value>
+    <value>java.awt.GridLayout%</value>
+    <value>java.awt.container%</value>
+    <value>java.awt.Graphics%</value>
+    <value>java.awt.SplashScreen%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java java.io (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>%Reader</value>
+    <value>%Writer</value>
+    <value>%OutputStram</value>
+    <value>%InputStream</value>
+    <value>%PrintStream</value>
+    <value>%File</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>java.io%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java java.io" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom End Point Java java.io (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java java.io (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java java.io (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom End Point Java java.net (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>java.net.%URI</value>
+    <value>java.net.%URL</value>
+    <value>java.net.%Address</value>
+    <value>java.net.%Encoder</value>
+    <value>java.net.%Decoder</value>
+    <value>java.net.%Socket%</value>
+    <value>java.net.%Response%</value>
+    <value>java.net.%Authentication</value>
+    <value>java.net.%NetworkInterface</value>
+    <value>java.net.%Connection</value>
+    <value>java.net.%Cookie%</value>
+    <value>javax.servlet.http.Cookie</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java java.net" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom End Point Java java.net (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java java.net (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java java.net (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom End Point Java java.nio (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>java.nio.channels.%Channel</value>
+    <value>java.nio.channels.File%</value>
+    <value>java.nio.channels.Pipe%</value>
+    <value>java.nio.channels.%ChannelGroup</value>
+    <value>java.nio.file.File%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java java.nio" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom End Point Java java.nio (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java java.nio (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java java.nio (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom End Point Java java.security (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+    <value>JV_CLASS</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>java.security.%key</value>
+    <value>java.security.%InputStream</value>
+    <value>java.security.%OutputStream</value>
+    <value>java.security.interfaces.RSA%</value>
+    <value>java.security.interfaces.EC%</value>
+    <value>java.security.interfaces.DSA%</value>
+    <value>java.security.KeyStore%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java java.security" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom End Point Java java.security (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java java.security (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java java.security (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom End Point Java java.util.zip (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>java.util.zip.%Stream</value>
+    <value>java.util.zip.%File</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java java.util.zip" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of level="120">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom End Point Java java.util.zip (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java java.util.zip (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java java.util.zip (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom Entry Point Java JAX-WS @WebService (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Java_AnnotationType</value>
+   </property>
+   <property name="name" operator="eq">
+    <value>webMethod</value>
+    <value>webService</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point Java WebService" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom Entry Point Java JAX-WS @WebService (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point WSDL Operation" type="Transaction entry points">
+  <argument name="type">
+   <value>WBS_OPERATION</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java javax.mail (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>javax.mail.message</value>
+    <value>javax.mail.Fetch%</value>
+    <value>javax.mail.%Folder</value>
+    <value>javax.mail.internet.Mime%</value>
+    <value>javax.mail.search.%</value>
+    <value>javax.mail.util.%Stream</value>
+    <value>javax.mail.Service</value>
+    <value>javax.mail.session%</value>
+    <value>javax.mail.internet.%Stream</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java javax.mail" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java javax.mail (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java javax.mail (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java javax.mail (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom Entry Point Java javax.servlet.Servlet (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="fullname" operator="eq">
+    <value>javax.servlet.Servlet</value>
+   </property>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point Java Servlet" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom Entry Point Java javax.servlet.Servlet (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point Java javax.swing (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>javax.swing.JPanel</value>
+    <value>javax.swing.JFrame</value>
+    <value>javax.swing.JWindow</value>
+    <value>javax.swing.RootPane</value>
+    <value>javax.swing.JDesktopPane</value>
+    <value>javax.swing.Box</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point Java Swing" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom Entry Point Java javax.swing (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom Entry Point Java javax.swing (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom Entry Point Java javax.swing (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java javax.xml.stream" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Inherit</link-type>
+    <member-of set="Custom End Point Java javax.xml.stream (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java javax.xml.stream (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java javax.xml.stream (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom End Point Java javax.xml.stream (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>javax.xml.stream.%Reader</value>
+    <value>javax.xml.stream.%Writer</value>
+    <value>javax.xml.stream.XMLInput%</value>
+    <value>javax.xml.stream.XMLOutput%</value>
+    <value>javax.xml.datatype.DatatypeFactory</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java org.apache.commons.io (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <property name="fullname" operator="like">
+    <value>org.apache.commons.io.%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java org.apache.commons.io" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom End Point Java org.apache.commons.io (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java org.apache.commons.io (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java org.apache.commons.io (GS)"/>
+   </caller-of>
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom End Point Java sun.net.telnet (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name="fullname" operator="eq">
+    <value>sun.net.TelnetInputStream</value>
+    <value>sun.net.TelnetOutputStream</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom End Point Java sun.net.telnet" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level="20">
+    <link-type>Inherit</link-type>
+    <member-of set="Custom End Point Java sun.net.telnet (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_INTERFACE</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set="Custom End Point Java sun.net.telnet (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set="Custom End Point Java sun.net.telnet (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom End Point Web External URL" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="type" operator="eq">
+    <value>CAST_Web_ExternalUrlDirectory</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>URL</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Web_URLDirectory</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+</associations>
+<prefixes encoding="UTF-8" version="1.0.0.0">
+</prefixes>
+<ignoredtables encoding="UTF-8" version="1.0.0.0">
+  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
+  <value description="Status entities">^(.+status)$</value>
+  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
+  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
+  <value description="Template data entities">^(.*template.*)$</value>
+  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
+</ignoredtables>
+</setup>
