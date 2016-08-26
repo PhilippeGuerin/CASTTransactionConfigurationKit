@@ -2,21 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>com.castsoftware.uc.transactionconfigurationkit</id>
-    <version>1.7.3</version>
+    <version>1.7.4</version>
     <title>Transaction Configuration Kit</title>
     <authors>CAST SMEs Group</authors>
     <owners>CAST SMEs Group</owners>
      <projectUrl>https://confluence.castsoftware.com/display/PSPS/Concept%3A+Architecture+Review</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provide default set of transaction configuration (beginning, end of transaction as well as data function) 	</description>
-    <releaseNotes>
-	| .Net in version V03 | ABAP in version V03 | DB2 in version V01 | EGL in version v01 | Flex in version v01 | Java in version v05 | Mainframe in version v09 | Php in version v01 | PL1 in version v01 | RPG in version v02 | Shell in version v01	
-
-1.	New free definition of JCL Procedure only if they are not called by some JCL Jobs
-2.	Definition of the  SAP Transaction not called by another SAP transaction.
-3.	Now the default setup by type as entry point for SAP transaction is deprecated
-4.	Filter out some specific pattern for the custom end point in .Net interacting with System Diagnostics
-5.	Filter out some specific pattern for the custom end point in .Net interacting with System.IO
+    <releaseNotes>Focus Mainframe / SAP / .Net / Java for 8.0
+1.	Mainframe (Previous version available: 3 now:  9) Availability of configuration previously available only on 8.1 in the 8.0 tccconfig files
+2.	SAP (Previous version available: 1 now:  2) Availability of configuration previously available only on 8.1 in the 8.0 tccconfig files
+3.	.Net (Previous version available: 1 now: 2) Availability of configuration previously available only on 8.1 in the 8.0 tccconfig files
+4.	Java (Previous version available: 3 now:  5) Availability of configuration previously available only on 8.1 in the 8.0 tccconfig files
 </releaseNotes>
     <tags>CSS</tags>
     <dependencies>

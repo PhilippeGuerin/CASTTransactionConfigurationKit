@@ -1,370 +1,369 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<setup encoding="UTF-8" version="1.0.0.0">
-<associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="Fri Aug 12 16:44:00 EDT 2016" encoding="UTF-8" version="1.0.0.0" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Fri Aug 19 13:40:04 EDT 2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
 <association>
- <set name="C# User Control" type="Transaction entry points">
+ <set name = "C# User Control" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_ClassCSharpUserControl</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB.NET Form" type="Transaction entry points">
+ <set name = "VB.NET Form" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_ClassVBForm</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Delphi Form" type="Transaction entry points">
+ <set name = "Delphi Form" type = "Transaction entry points">
   <argument name="type">
    <value>DELPHI_FORM</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB User Document" type="Transaction entry points">
+ <set name = "VB User Document" type = "Transaction entry points">
   <argument name="type">
    <value>VB_USER_DOC</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB Form" type="Transaction entry points">
+ <set name = "VB Form" type = "Transaction entry points">
   <argument name="type">
    <value>VB_FORM</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="PB Window" type="Transaction entry points">
+ <set name = "PB Window" type = "Transaction entry points">
   <argument name="type">
    <value>PB_WINDOW</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB.NET Custom Control" type="Transaction entry points">
+ <set name = "VB.NET Custom Control" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_ClassVBCustomControl</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB User Control" type="Transaction entry points">
+ <set name = "VB User Control" type = "Transaction entry points">
   <argument name="type">
    <value>VB_USER_CONTROL</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name=".NET Form" type="Transaction entry points">
+ <set name = ".NET Form" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_ClassExternalForm</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Oracle Forms Module" type="Transaction entry points">
+ <set name = "Oracle Forms Module" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_Forms_Module</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB Designer Files" type="Transaction entry points">
+ <set name = "VB Designer Files" type = "Transaction entry points">
   <argument name="type">
    <value>VB_DESIGNER</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="C# Form" type="Transaction entry points">
+ <set name = "C# Form" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_ClassCSharpForm</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="C# Custom Control" type="Transaction entry points">
+ <set name = "C# Custom Control" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_ClassCSharpCustomControl</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB Property Page" type="Transaction entry points">
+ <set name = "VB Property Page" type = "Transaction entry points">
   <argument name="type">
    <value>VB_PROPERTY_PAGE</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB MDI Form" type="Transaction entry points">
+ <set name = "VB MDI Form" type = "Transaction entry points">
   <argument name="type">
    <value>VB_MDI_FORM</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="VB.NET User Control" type="Transaction entry points">
+ <set name = "VB.NET User Control" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_ClassVBUserControl</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="JSF Input Field" type="Transaction entry points">
+ <set name = "JSF Input Field" type = "Transaction entry points">
   <argument name="type">
    <value>JSF_INPUT_FIELD</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="JCL Job" type="Transaction entry points">
+ <set name = "JCL Job" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_JCL_CatalogedJobPrototype</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Oracle Report Module" type="Transaction entry points">
+ <set name = "Oracle Report Module" type = "Transaction entry points">
   <argument name="type">
    <value>FORMS_RDF_MODULE</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Asmx Source File" type="Transaction entry points">
+ <set name = "Asmx Source File" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_AsmxFile</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="CICS Transaction" type="Transaction entry points">
+ <set name = "CICS Transaction" type = "Transaction entry points">
   <argument name="type">
    <value>CICS_TRANSACTION</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Cobol Transaction" type="Transaction entry points">
+ <set name = "Cobol Transaction" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_CICS_TransactionPrototype</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="BO Class" type="Transaction entry points">
+ <set name = "BO Class" type = "Transaction entry points">
   <argument name="type">
    <value>BO_CLASS</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Ascx Source File" type="Transaction entry points">
+ <set name = "Ascx Source File" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_AscxFile</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Aspx Source File" type="Transaction entry points">
+ <set name = "Aspx Source File" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_AspxFile</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="JCL Job (2)" type="Transaction entry points">
+ <set name = "JCL Job (2)" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_JCL_CatalogedJob</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="SAP Transaction" type="Transaction entry points">
+ <set name = "SAP Transaction" type = "Transaction entry points">
   <argument name="type">
    <value>SAPTransaction</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="eFile" type="Transaction entry points">
+ <set name = "eFile" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_Web_File</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name=".NET Inherited Form" type="Transaction entry points">
+ <set name = ".NET Inherited Form" type = "Transaction entry points">
   <argument name="type">
    <value>NET_INHERITED_FORM</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name=".NET Inherited User Control" type="Transaction entry points">
+ <set name = ".NET Inherited User Control" type = "Transaction entry points">
   <argument name="type">
    <value>NET_INHERITED_USER_CONTROL</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name=".NET Form - legacy" type="Transaction entry points">
+ <set name = ".NET Form - legacy" type = "Transaction entry points">
   <argument name="type">
    <value>NET_FORM</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name=".NET Web Custom Control" type="Transaction entry points">
+ <set name = ".NET Web Custom Control" type = "Transaction entry points">
   <argument name="type">
    <value>NET_WEB_CUSTOM_CONTROL</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name=".NET User Control - legacy" type="Transaction entry points">
+ <set name = ".NET User Control - legacy" type = "Transaction entry points">
   <argument name="type">
    <value>NET_USER_CONTROL</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Web service" type="Transaction entry points">
+ <set name = "Web service" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_DotNet_ClassCSharpWebService</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point WSDL Operation" type="Transaction entry points">
+ <set name = "Custom Entry Point WSDL Operation" type = "Transaction entry points">
   <argument name="type">
    <value>WBS_OPERATION</value>
   </argument>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <member-of set="By type"/>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point Web External URL" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="yes">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point Web External URL" type = "Transaction end points">
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_Web_ExternalUrlDirectory</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>URL</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_Web_URLDirectory</value>
    </property>
   </selection-criteria>
@@ -377,13 +376,13 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Console (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net System.Console (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Console.Write</value>
     <value>System.Console.WriteLine</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -395,11 +394,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Console" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Console" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Console (GS)"/>
+    <member-of set ="Custom End Point .Net System.Console (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -411,13 +410,13 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.Office.Interop.Excel (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net Microsoft.Office.Interop.Excel (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>Microsoft.Office.Interop.Excel.Workbooks.Open</value>
     <value>Microsoft.Office.Interop.Excel._Workbook.Close</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -429,11 +428,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.Office.Interop.Excel" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.Office.Interop.Excel" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.Office.Interop.Excel (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.Office.Interop.Excel (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -445,9 +444,9 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Data (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net System.Data (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Data.IDbCommand.ExecuteNonQuery</value>
     <value>System.Data.IDbCommand.ExecuteReader</value>
     <value>System.Data.Linq.DataContext.ExecuteMethodCall</value>
@@ -468,7 +467,7 @@
     <value>System.Data.SqlClient.SqlConnection.CreateCommand</value>
     <value>System.Data.SqlClient.SqlDataReader.Read</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -477,15 +476,15 @@
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Data.Common.DbCommand.ExecuteNonQuery</value>
     <value>System.Data.Common.DbCommand.ExecuteReader</value>
     <value>System.Data.Common.DbDataReader.DbDataReader</value>
     <value>System.Data.Common.DbDataReader.Read</value>
     <value>System.Data.Common.DbProviderFactory.CreateCommand</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -494,12 +493,12 @@
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Data.DataSet.ReadXml</value>
     <value>System.Data.DataSet.WriteXml</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -508,12 +507,12 @@
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="like">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "like" >
     <value>System.Data.Common.DbTransaction%</value>
     <value>System.Data.Common.DbDataReader%</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -525,11 +524,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Data" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Data" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Data (GS)"/>
+    <member-of set ="Custom End Point .Net System.Data (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -541,9 +540,9 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.DirectoryServices (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net System.DirectoryServices (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -551,7 +550,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.ChangePassword</value>
     <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.RefreshExpiredPassword</value>
     <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.ExpirePasswordNow</value>
@@ -573,11 +572,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.DirectoryServices" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.DirectoryServices" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.DirectoryServices (GS)"/>
+    <member-of set ="Custom End Point .Net System.DirectoryServices (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -589,9 +588,9 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.IO (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net System.IO (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.IO.BinaryReader.BinaryReader</value>
     <value>System.IO.BinaryWriter.BinaryWriter</value>
     <value>System.IO.BinaryWriter.Write</value>
@@ -627,7 +626,7 @@
     <value>System.IO.TextWriter.Write</value>
     <value>System.IO.TextWriter.WriteLine</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -636,8 +635,8 @@
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -645,7 +644,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>System.IO.FileInfo%</value>
     <value>System.IO.Path%</value>
     <value>System.IO.FileSystemInfo%</value>
@@ -654,13 +653,13 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.IO" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.IO" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.IO (GS)"/>
+    <member-of set ="Custom End Point .Net System.IO (GS)"/>
    </caller-of>
-   <property name="name" operator="notlike">
+   <property name = "name" operator = "notlike" >
     <value>%Log%</value>
    </property>
   </selection-criteria>
@@ -673,14 +672,14 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Messaging (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net System.Messaging (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Messaging.Message.Message</value>
     <value>System.Messaging.MessageQueue.MessageQueue</value>
     <value>System.Messaging.MessageQueue.Send</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -692,11 +691,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Messaging" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Messaging" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Messaging (GS)"/>
+    <member-of set ="Custom End Point .Net System.Messaging (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -708,9 +707,9 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Net (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net System.Net (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Net.Mail.Attachment.Attachment</value>
     <value>System.Net.Mail.MailMessage.MailMessage</value>
     <value>System.Net.Mail.SmtpClient.Send</value>
@@ -719,7 +718,7 @@
     <value>System.Net.WebRequest.Create</value>
     <value>System.Net.WebResponse.GetResponseStream</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -728,15 +727,15 @@
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="like">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "like" >
     <value>System.Net.Mail.Attachment%</value>
     <value>System.Net.Mail.MailAddress%</value>
     <value>System.Net.Mail.MailAddressCollection%</value>
     <value>System.Net.Mail.MailMessage%</value>
     <value>System.Net.Mail.SmtpClient%</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -748,11 +747,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Net" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Net" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Net (GS)"/>
+    <member-of set ="Custom End Point .Net System.Net (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -764,13 +763,13 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Reflection (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net System.Reflection (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Reflection.Assembly.Load</value>
     <value>System.Reflection.Assembly.LoadFile</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -782,11 +781,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Reflection" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Reflection" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Reflection (GS)"/>
+    <member-of set ="Custom End Point .Net System.Reflection (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -798,12 +797,12 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Security.Cryptography (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net System.Security.Cryptography (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Security.Cryptography.CryptoStream.Write</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -812,12 +811,12 @@
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="like">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "like" >
     <value>System.Security.Cryptography.MD5CryptoServiceProvider%</value>
     <value>System.Security.Cryptography.CryptoStream%</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -829,11 +828,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Security.Cryptography" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Security.Cryptography" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Security.Cryptography (GS)"/>
+    <member-of set ="Custom End Point .Net System.Security.Cryptography (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -845,14 +844,14 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Web.Services (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="eq">
+ <set name = "Custom End Point .Net System.Web.Services (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "eq" >
     <value>System.Web.Services.Protocols.SoapExtension.ChainStream</value>
     <value>System.Web.Services.Protocols.SoapExtension.ProcessMessage</value>
     <value>System.Web.Services.WebService.WebService</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -861,8 +860,8 @@
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -870,18 +869,18 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>System.Web.Services.WebService%</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Web.Services" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Web.Services" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Web.Services (GS)"/>
+    <member-of set ="Custom End Point .Net System.Web.Services (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -893,9 +892,9 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Xml (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net System.Xml (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -903,7 +902,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>System.Xml.XmlDocument.Load</value>
     <value>System.Xml.XmlDocument.Save</value>
     <value>System.Xml.XmlDocument.LoadXml</value>
@@ -914,8 +913,8 @@
     <value>System.Xml.Xsl.XslTransform.Load</value>
    </property>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -923,7 +922,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>System.Xml.XmlAttribute%</value>
     <value>System.Xml.XmlAttributeCollection%</value>
     <value>System.Xml.XmlDocument%</value>
@@ -944,11 +943,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Xml" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Xml" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Xml (GS)"/>
+    <member-of set ="Custom End Point .Net System.Xml (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -960,14 +959,14 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Chilkat (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="like">
+ <set name = "Custom End Point .Net Chilkat (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "like" >
     <value>Chilkat.Gzip%</value>
     <value>Chilkat.Zip%</value>
     <value>Chilkat.ZipEntry%</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -979,9 +978,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Ionic (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Ionic (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -989,16 +988,16 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Ionic.Zip.ZipFile%</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.Practices.EnterpriseLibrary.Data (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Microsoft.Practices.EnterpriseLibrary.Data (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1006,7 +1005,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Microsoft.Practices.EnterpriseLibrary.Data.Database%</value>
     <value>Microsoft.Practices.EnterpriseLibrary.Data.Sql.SqlDatabase%</value>
    </property>
@@ -1014,9 +1013,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.Security.Application (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Microsoft.Security.Application (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1024,16 +1023,16 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Microsoft.Security.Application.Encoder%</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.SqlServer.Server (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Microsoft.SqlServer.Server (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1041,7 +1040,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Microsoft.SqlServer.Server.SqlDataRecord%</value>
     <value>Microsoft.SqlServer.Server.SqlMetaData%</value>
    </property>
@@ -1049,9 +1048,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.ApplicationServices (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.ApplicationServices (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1059,20 +1058,20 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Microsoft.VisualBasic.ApplicationServices.WebUser%</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.Devices (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="fullname" operator="like">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.Devices (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "fullname" operator = "like" >
     <value>Microsoft.VisualBasic.Devices.Computer%</value>
     <value>Microsoft.VisualBasic.Devices.ServerComputer%</value>
    </property>
-   <property name="type" operator="eq">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1084,9 +1083,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.FileIO (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.FileIO (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1094,16 +1093,16 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Microsoft.VisualBasic.FileIO.FileSystem%</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.FileSystem (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.FileSystem (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1111,16 +1110,16 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Microsoft.VisualBasic.FileSystem%</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.MyServices (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.MyServices (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1128,7 +1127,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Microsoft.VisualBasic.MyServices.ClipboardProxy%</value>
     <value>Microsoft.VisualBasic.MyServices.FileSystemProxy%</value>
    </property>
@@ -1136,9 +1135,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net NewRiver (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net NewRiver (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1146,7 +1145,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>NewRiver.BusinessLogic.EmailSystem.Email%</value>
     <value>NewRiver.BusinessLogic.EmailSystem.EmailProperties%</value>
     <value>NewRiver.Common.Configuration.ConfigurationReader%</value>
@@ -1157,9 +1156,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Persits.PDF.PdfManager (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net Persits.PDF.PdfManager (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1167,16 +1166,16 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>Persits.PDF.PdfManager%</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Configuration (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net System.Configuration (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1184,7 +1183,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>System.Configuration.AppSettingsReader%</value>
     <value>System.Configuration.ApplicationSettingsBase%</value>
     <value>System.Configuration.ConfigurationManager%</value>
@@ -1195,9 +1194,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Diagnostics (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net System.Diagnostics (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1205,7 +1204,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>System.Diagnostics.StackFrame%</value>
     <value>System.Diagnostics.Stopwatch%</value>
     <value>System.Diagnostics.Trace%</value>
@@ -1217,9 +1216,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Uri (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net System.Uri (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1227,16 +1226,16 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>System.Uri%</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Web.Mail (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net System.Web.Mail (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1244,7 +1243,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>System.Web.Mail.MailAttachment%</value>
     <value>System.Web.Mail.MailMessage%</value>
     <value>System.Web.Mail.SmtpMail%</value>
@@ -1253,9 +1252,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net System.Web.UI (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net System.Web.UI (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1263,7 +1262,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>System.Web.UI.HtmlTextWriter%</value>
     <value>System.Web.UI.WebControls.FileUpload%</value>
    </property>
@@ -1271,9 +1270,9 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net icc.BaseClasses (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom End Point .Net icc.BaseClasses (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1281,7 +1280,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="like">
+   <property name = "fullname" operator = "like" >
     <value>icc.BaseClasses.ExportPlan%</value>
     <value>icc.BaseClasses.ImportPlan%</value>
     <value>icc.BaseClasses.Lipper%</value>
@@ -1307,11 +1306,11 @@
  </set>
 </association>
 <association>
- <set name="Custom End Point .Net Chilkat" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Chilkat" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Chilkat (GS)"/>
+    <member-of set ="Custom End Point .Net Chilkat (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1323,11 +1322,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Ionic" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Ionic" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Ionic (GS)"/>
+    <member-of set ="Custom End Point .Net Ionic (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1339,11 +1338,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.Practices.EnterpriseLibrary" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.Practices.EnterpriseLibrary" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.Practices.EnterpriseLibrary.Data (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.Practices.EnterpriseLibrary.Data (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1355,11 +1354,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.Security.Application" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.Security.Application" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.Security.Application (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.Security.Application (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1371,11 +1370,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.SqlServer.Server" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.SqlServer.Server" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.SqlServer.Server (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.SqlServer.Server (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1387,11 +1386,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.ApplicationServices" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.ApplicationServices" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.VisualBasic.ApplicationServices (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.ApplicationServices (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1403,11 +1402,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.Devices" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.Devices" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.VisualBasic.Devices (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.Devices (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1419,11 +1418,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.FileIO" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.FileIO" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.VisualBasic.FileIO (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.FileIO (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1435,11 +1434,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.FileSystem" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.FileSystem" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.VisualBasic.FileSystem (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.FileSystem (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1451,11 +1450,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Microsoft.VisualBasic.MyServices" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.MyServices" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Microsoft.VisualBasic.MyServices (GS)"/>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.MyServices (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1467,11 +1466,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net NewRiver" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net NewRiver" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net NewRiver (GS)"/>
+    <member-of set ="Custom End Point .Net NewRiver (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1483,11 +1482,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net Persits.PDF.PdfManager" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net Persits.PDF.PdfManager" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net Persits.PDF.PdfManager (GS)"/>
+    <member-of set ="Custom End Point .Net Persits.PDF.PdfManager (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1499,11 +1498,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Configuration" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Configuration" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Configuration (GS)"/>
+    <member-of set ="Custom End Point .Net System.Configuration (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1515,13 +1514,13 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Diagnostics" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Diagnostics" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Diagnostics (GS)"/>
+    <member-of set ="Custom End Point .Net System.Diagnostics (GS)"/>
    </caller-of>
-   <property name="name" operator="notlike">
+   <property name = "name" operator = "notlike" >
     <value>%Trace%</value>
    </property>
   </selection-criteria>
@@ -1534,11 +1533,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Uri" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Uri" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Uri (GS)"/>
+    <member-of set ="Custom End Point .Net System.Uri (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1550,11 +1549,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Web.Mail" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Web.Mail" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Web.Mail (GS)"/>
+    <member-of set ="Custom End Point .Net System.Web.Mail (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1566,11 +1565,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net System.Web.UI" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net System.Web.UI" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net System.Web.UI (GS)"/>
+    <member-of set ="Custom End Point .Net System.Web.UI (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1582,11 +1581,11 @@
  </attribute>
 </association>
 <association>
- <set name="Custom End Point .Net icc.BaseClasses" type="Transaction end points">
-  <selection-criteria externalobjects="yes" subobjects="no">
+ <set name = "Custom End Point .Net icc.BaseClasses" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom End Point .Net icc.BaseClasses (GS)"/>
+    <member-of set ="Custom End Point .Net icc.BaseClasses (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
@@ -1598,45 +1597,45 @@
  </attribute>
 </association>
 <association>
- <set name="Custom Entry Point .Net Amib.Threading.SmartThreadPool" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net Amib.Threading.SmartThreadPool" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
+    <member-of set ="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
+    <member-of set ="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
+    <member-of set ="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1644,52 +1643,52 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>Amib.Threading.SmartThreadPool</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net Microsoft.Reporting.WebForms" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net Microsoft.Reporting.WebForms" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
+    <member-of set ="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
+    <member-of set ="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
+    <member-of set ="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1697,7 +1696,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>Microsoft.Reporting.WebForms.Report</value>
     <value>Microsoft.Reporting.WebForms.ServerReport</value>
    </property>
@@ -1705,45 +1704,45 @@
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net System.Net" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net System.Net" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net System.Net (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Net (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net System.Net (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Net (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net System.Net (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Net (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net System.Net (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net System.Net (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1751,7 +1750,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>System.Net.HttpWebRequest</value>
     <value>System.Net.HttpWebResponse</value>
     <value>System.Net.WebRequest</value>
@@ -1761,45 +1760,45 @@
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net Persits.PDF.PdfDocument" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net Persits.PDF.PdfDocument" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
+    <member-of set ="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
+    <member-of set ="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
+    <member-of set ="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net Persits.PDF.PdfDocument (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1807,52 +1806,52 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>Persits.PDF.PdfDocument</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net System.Threading" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net System.Threading" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net System.Threading (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Threading (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net System.Threading (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Threading (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net System.Threading (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Threading (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net System.Threading (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net System.Threading (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1860,7 +1859,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>System.Threading.Monitor</value>
     <value>System.Threading.Thread</value>
    </property>
@@ -1868,45 +1867,45 @@
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net System.Web.UI" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net System.Web.UI" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net System.Web.UI (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Web.UI (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net System.Web.UI (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Web.UI (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net System.Web.UI (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Web.UI (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net System.Web.UI (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net System.Web.UI (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1914,7 +1913,7 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>System.Web.UI.MasterPage</value>
     <value>System.Web.UI.Page</value>
    </property>
@@ -1922,45 +1921,45 @@
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net System.Windows.Forms.Screen" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net System.Windows.Forms.Screen" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
+    <member-of set ="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net System.Windows.Forms.Screen (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net System.Windows.Forms.Screen (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -1968,52 +1967,52 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>System.Windows.Forms.Screen</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net icc.BaseClasses.OrderForm" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net icc.BaseClasses.OrderForm" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
+    <member-of set ="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
+    <member-of set ="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
+    <member-of set ="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -2021,52 +2020,52 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>icc.BaseClasses.OrderForm</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net skmMenu.Menu" type="Transaction entry points">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net skmMenu.Menu" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_InterfaceVB</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
    <caller-of>
     <link-type>RelyOn</link-type>
-    <member-of set="Custom Entry Point .Net skmMenu.Menu (GS)"/>
+    <member-of set ="Custom Entry Point .Net skmMenu.Menu (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
-   <caller-of level="20">
+   <caller-of level = "20">
     <link-type>Inherit</link-type>
-    <member-of set="Custom Entry Point .Net skmMenu.Menu (GS)"/>
+    <member-of set ="Custom Entry Point .Net skmMenu.Menu (GS)"/>
    </caller-of>
   </selection-criteria>
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_MethodVB</value>
     <value>CAST_DotNet_MethodExternal</value>
    </property>
    <caller-of>
     <link-type>Access</link-type>
-    <member-of set="Custom Entry Point .Net skmMenu.Menu (GS)"/>
+    <member-of set ="Custom Entry Point .Net skmMenu.Menu (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name="Custom Entry Point .Net skmMenu.Menu (GS)" type="Generic sets">
-  <selection-criteria externalobjects="yes" subobjects="no">
-   <property name="type" operator="eq">
+ <set name = "Custom Entry Point .Net skmMenu.Menu (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
     <value>CAST_DotNet_ClassExternal</value>
     <value>CAST_DotNet_ClassVB</value>
     <value>CAST_DotNet_InterfaceVB</value>
@@ -2074,16 +2073,16 @@
     <value>CAST_DotNet_MethodExternal</value>
     <value>CAST_DotNet_InterfaceExternal</value>
    </property>
-   <property name="fullname" operator="eq">
+   <property name = "fullname" operator = "eq" >
     <value>skmMenu.Menu</value>
    </property>
   </selection-criteria>
  </set>
 </association>
 </associations>
-<prefixes encoding="UTF-8" version="1.0.0.0">
+<prefixes version="1.0.0.0" encoding="UTF-8">
 </prefixes>
-<ignoredtables encoding="UTF-8" version="1.0.0.0">
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
   <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
   <value description="Status entities">^(.+status)$</value>
   <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
