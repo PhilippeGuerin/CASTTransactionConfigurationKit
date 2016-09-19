@@ -2,18 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>com.castsoftware.uc.transactionconfigurationkit</id>
-    <version>1.7.4</version>
+    <version>1.7.5</version>
     <title>Transaction Configuration Kit</title>
     <authors>CAST SMEs Group</authors>
     <owners>CAST SMEs Group</owners>
      <projectUrl>https://confluence.castsoftware.com/display/PSPS/Concept%3A+Architecture+Review</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provide default set of transaction configuration (beginning, end of transaction as well as data function) 	</description>
-    <releaseNotes>Focus Mainframe / SAP / .Net / Java for 8.0
-1.	Mainframe (Previous version available: 3 now:  9) Availability of configuration previously available only on 8.1 in the 8.0 tccconfig files
-2.	SAP (Previous version available: 1 now:  2) Availability of configuration previously available only on 8.1 in the 8.0 tccconfig files
-3.	.Net (Previous version available: 1 now: 2) Availability of configuration previously available only on 8.1 in the 8.0 tccconfig files
-4.	Java (Previous version available: 3 now:  5) Availability of configuration previously available only on 8.1 in the 8.0 tccconfig files
+    <releaseNotes>JAVA: Main and Run method are matched by name instead of fullname.
+	RPG: Drop deprecated configuration. New TCC configuration will be in the future version of the kit
 </releaseNotes>
     <tags>CSS</tags>
     <dependencies>
