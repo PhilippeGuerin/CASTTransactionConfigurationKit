@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<setup encoding="UTF-8" version="1.0.0.0">
+<associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="Tue May 16 12:35:10 EDT 2017" encoding="UTF-8" version="1.0.0.0" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name="RPG Printer" type="Transaction end points">
+  <argument name="type">
+   <value>DDS400PRTFFile</value>
+  </argument>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <member-of set="By type"/>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom Entry Point CL Program" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CL400Program</value>
+   </property>
+   <excluded-from set="Custom Entry Points Called CL Jobs (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Points Called CL Jobs (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CL400Program</value>
+   </property>
+   <callee-of level="20">
+    <link-type>Call</link-type>
+    <member-of set="Custom Entry Points Caller of CL Jobs (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Points CL Jobs (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CL400Program</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Points Caller of CL Jobs (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <caller-of level="20">
+    <link-type>Call</link-type>
+    <member-of set="Custom Entry Points CL Jobs (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Data Entity DB400 Table" type="Data functions">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>DB400Table</value>
+   </property>
+   <member-of set="Custom Entry Points DB400 ESQL (GS)"/>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>DB400Table</value>
+   </property>
+   <member-of set="Custom Entry Points DB400 DDS (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="RET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom Entry Points DB400 ESQL (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>DB400Table</value>
+   </property>
+   <callee-of>
+    <link-type>Write</link-type>
+    <member-of set="Custom Entry Points DB400 ESQL Caller (GS)"/>
+   </callee-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>DB400Table</value>
+   </property>
+   <callee-of>
+    <link-type>Read</link-type>
+    <member-of set="Custom Entry Points DB400 ESQL Caller (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Points DB400 DDS PF (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>DDS400RecordstructurePF</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="Custom Entry Points DB400 DDS Caller (GS)"/>
+   </callee-of>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>DDS400RecordstructurePF</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="Custom Entry Points DB400 DDS LF (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Points DB400 ESQL Caller (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>RPG400MainSubroutine</value>
+    <value>RPG400Procedure</value>
+    <value>RPG400Subroutine</value>
+    <value>RPG400SubroutineFF</value>
+    <value>CL400Program</value>
+    <value>CL400Subroutine</value>
+    <value>JV_METHOD</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>C_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Points DB400 DDS Caller (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>RPG400FileDiskRecord</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Points DB400 DDS (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>DB400Table</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="Custom Entry Points DB400 DDS PF (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Points DB400 DDS LF (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="Custom Entry Points DB400 DDS Caller (GS)"/>
+   </callee-of>
+   <property name="type" operator="eq">
+    <value>DDS400RecordstructureLF</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes encoding="UTF-8" version="1.0.0.0">
+</prefixes>
+<ignoredtables encoding="UTF-8" version="1.0.0.0">
+</ignoredtables>
+</setup>

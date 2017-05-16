@@ -1,0 +1,94 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Tue May 16 12:36:08 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Custom Entry Point Shell Program" type = "Transaction entry points">
+  <argument name="type">
+   <value>SHELLProgram</value>
+  </argument>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By type"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Shell FILE" type = "Transaction end points">
+  <argument name="type">
+   <value>SHELLVariable</value>
+  </argument>
+  <argument name="name">
+   <value>%FILE%</value>
+  </argument>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By naming"/>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Shell mget" type = "Transaction end points">
+  <argument name="type">
+   <value>SHELLVariable</value>
+  </argument>
+  <argument name="name">
+   <value>mget%</value>
+  </argument>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By naming"/>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Shell mput" type = "Transaction end points">
+  <argument name="type">
+   <value>SHELLVariable</value>
+  </argument>
+  <argument name="name">
+   <value>mput%</value>
+  </argument>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By naming"/>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Shell FTP" type = "Transaction end points">
+  <argument name="type">
+   <value>SHELLVariable</value>
+  </argument>
+  <argument name="name">
+   <value>%FTP%</value>
+  </argument>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <member-of set ="By naming"/>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+</ignoredtables>
+</setup>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<setup encoding="UTF-8" version="1.0.0.0">
+<associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="Tue May 16 12:08:47 EDT 2017" encoding="UTF-8" version="1.0.0.0" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name="Default Entry Point WPF" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>XAML_Custom_Control</value>
+    <value>XAML_Control</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes encoding="UTF-8" version="1.0.0.0">
+</prefixes>
+<ignoredtables encoding="UTF-8" version="1.0.0.0">
+</ignoredtables>
+</setup>

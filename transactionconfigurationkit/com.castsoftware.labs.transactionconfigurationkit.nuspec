@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>com.castsoftware.labs.transactionconfigurationkit</id>
+    <title>Transaction Configuration Kit</title>
+    <version>1.9.0</version>
+	<authors>CAST Labs</authors>
+    <owners>CAST</owners>
+     <projectUrl>https://github.com/PhilippeGuerin/CASTTransactionConfigurationKit/wiki</projectUrl>
+	 <iconUrl>https://raw.githubusercontent.com/PhilippeGuerin/CASTTransactionConfigurationKit/master/TransactionConfigurationKit.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provide default set of transaction configuration which include definition by type, by name, by inheritance as well as free definitions for all beginning of transaction, end of transaction and exclusion. </description>
+    <releaseNotes>Replacement of the definition by type in free definition for the default technology: AngularJS, BusinessObject, Delphi, DotNetSilverlight, DotNetWCF, DotNetWPF, DotNet, HTML5, IOS, JEE, JQuery, Mainframe, Natural, OracleFormsOracleReports
+PowerBuilder, Python, RDL, Sapui, SAP, SQR, Teradata, Tibco, Web, XPDL).
+Add-on for the following technologies: Addon_.Net, Addon_ABAP, Addon_DB2, Addon_EGL, Addon_FLEX, Addon_Java, Addon_Mainframe, Addon_PHP, Addon_PL1, Addon_RPG, Addon_SHELL.
+Also a merged of all config into AllTransactionSetup
+</releaseNotes>
+ <tags>CASTLabs LongTerm CAIP8.2.x CAIP8.1.x CAIP8.0.x CAIP7.3.x CSS Oracle MS FPQuality FPConfiguration Configuration</tags>
+    <dependencies>
+      <dependency id="CAIP" version="7.3" />
+    </dependencies>
+	<licenseUrl>https://help.castsoftware.com/hc/en-us/articles/212612648-Application-Intelligence-Platform-Extension-License</licenseUrl>
+  </metadata>
+</package>
