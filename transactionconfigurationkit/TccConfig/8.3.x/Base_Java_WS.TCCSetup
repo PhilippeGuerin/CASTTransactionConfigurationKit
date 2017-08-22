@@ -1,0 +1,369 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations package="Base_JavaWS" version="1.0.0.0" encoding="UTF-8" date="Fri Aug 11 20:21:51 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Custom Entry Point Java WebService" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point Java JAX-WS @WebService (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point Java JAX-WS @WebService (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_INTERFACE</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point Java JAX-WS @WebService (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java com.ibm.ws" type = "Transaction end points">
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Call</link-type>
+    <member-of set ="Custom End Point Java com.ibm.ws (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java com.ibm.ws (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>com.ibm.ws.webservices.engine%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java javax.jws" type = "Transaction end points">
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Call</link-type>
+    <member-of set ="Custom End Point Java javax.jws (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java javax.jws (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>java.jws%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java org.apache.cxf.jaxws" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom End Point Java org.apache.cxf.jaxws (GS)"/>
+   </caller-of>
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java org.apache.cxf.jaxws (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>org.apache.cxf.jaxws%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java org.apache.axiom.soap (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>org.apache.axiom.soap%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java org.apache.axiom.soap" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom End Point Java org.apache.axiom.soap (GS)"/>
+   </caller-of>
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java javax.xml.ws" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom End Point Java javax.xml.ws (GS)"/>
+   </caller-of>
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java javax.ws.rs" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom End Point Java javax.ws.rs (GS)"/>
+   </caller-of>
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java javax.xml.soap" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom End Point Java javax.xml.soap (GS)"/>
+   </caller-of>
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java com.ibm.wsc" type = "Transaction end points">
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Call</link-type>
+    <member-of set ="Custom End Point Java com.ibm.wsc (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java javax.ws.rs (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>javax.ws.rs.%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java javax.xml.soap (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>javax.xml.soap.%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java com.ibm.wsc (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>com.ibm.wsc%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java org.springframework.ws" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point Java org.springframework.ws (GS)"/>
+   </caller-of>
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point Java org.springframework.ws (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>org.springframework.ws.client.core.WebServiceTemplate%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Default Entry Point Java WebServices" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>WBS_OPERATION</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point Java javax.xml.ws (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>javax.xml.ws.handler.soap.%</value>
+    <value>javax.xml.ws.soap%</value>
+    <value>javax.xml.ws.%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point Java JAX-WS @WebService (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_Java_AnnotationType</value>
+   </property>
+   <property name = "name" operator = "eq" >
+    <value>webMethod</value>
+    <value>webService</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
+  <value description="Template data entities">^(.*template.*)$</value>
+  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
+  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
+  <value description="Status entities">^(.+status)$</value>
+  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
+</ignoredtables>
+</setup>

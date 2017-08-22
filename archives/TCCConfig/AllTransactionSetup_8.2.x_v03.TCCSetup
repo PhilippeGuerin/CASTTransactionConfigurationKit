@@ -1,5 +1,5 @@
 <setup version="1.0.0.0" encoding="UTF-8">
-<associations version="1.0.0.0" encoding="UTF-8" date="Tue May 16 12:53:03 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<associations version="1.0.0.0" encoding="UTF-8" date="Tue Jul 25 17:08:09 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
 <association>
  <set name = "Custom Entry Point Shell Program" type = "Transaction entry points">
   <argument name="type">
@@ -2429,7 +2429,7 @@
  </attribute>
 </association>
 <association>
- <set name = "CUSTOM INTERFACE CORE SAP" type = "Transaction end points">
+ <set name = "Custom End Point SAP Interface with the SAP core" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>abapProgram</value>
@@ -2450,7 +2450,7 @@
  </attribute>
 </association>
 <association>
- <set name = "CUSTOM ABAP BADI" type = "Transaction end points">
+ <set name = "Custom ABAP BADI" type = "Transaction end points">
   <argument name="type">
    <value>abapBadi</value>
   </argument>
@@ -2466,7 +2466,7 @@
  </attribute>
 </association>
 <association>
- <set name = "CUSTOM SAP BAPI" type = "Transaction end points">
+ <set name = "Custom SAP BAPI" type = "Transaction end points">
   <argument name="type">
    <value>CAST_SAP_BAPI</value>
   </argument>
@@ -2482,7 +2482,7 @@
  </attribute>
 </association>
 <association>
- <set name = "CUSTOM SAP BAPI Method" type = "Transaction end points">
+ <set name = "Custom SAP BAPI Method" type = "Transaction end points">
   <argument name="type">
    <value>CAST_SAP_BAPI_METHOD</value>
   </argument>
@@ -2498,7 +2498,7 @@
  </attribute>
 </association>
 <association>
- <set name = "CUSTOM R3 WebDynpro Window" type = "Transaction entry points">
+ <set name = "Custom R3 WebDynpro Window" type = "Transaction entry points">
   <argument name="type">
    <value>CAST_SAP_R3WDYN_Window</value>
   </argument>
@@ -7317,7 +7317,7 @@
  </attribute>
 </association>
 <association>
- <set name = "RPG Printer" type = "Transaction end points">
+ <set name = "Custom End Point RPG Printer" type = "Transaction end points">
   <argument name="type">
    <value>DDS400PRTFFile</value>
   </argument>
@@ -7580,6 +7580,12 @@
     <value>XAML_Custom_Control</value>
     <value>XAML_Control</value>
    </property>
+   <property name = "name" operator = "eq" >
+    <value>button%</value>
+   </property>
+   <property name = "name" operator = "notlike" >
+    <value>%close</value>
+   </property>
   </selection-criteria>
  </set>
 </association>
@@ -7592,6 +7598,7 @@
     <value>CAST_HTML5_HTC_Content</value>
     <value>CAST_HTML5_JSP_Content</value>
     <value>CAST_HTML5_SourceCode</value>
+    <value>CAST_HTML5_CSHTML_Content</value>
    </property>
   </selection-criteria>
  </set>
@@ -7762,9 +7769,103 @@
   </selection-criteria>
  </set>
 </association>
+<association>
+ <set name = "Custom Exclusion Oracle System Tables" type = "Excluded items">
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "name" operator = "eq" >
+    <value>PLAN_TABLE</value>
+    <value>ALL_ARGUMENTS</value>
+    <value>ALL_CATALOG</value>
+    <value>ALL_COL_COMMENTS</value>
+    <value>ALL_CONSTRAINTS</value>
+    <value>ALL_CONS_COLUMNS</value>
+    <value>ALL_DB_LINKS</value>
+    <value>ALL_ERRORS</value>
+    <value>ALL_INDEXES</value>
+    <value>ALL_IND_COLUMNS</value>
+    <value>ALL_LOBS</value>
+    <value>ALL_OBJECTS</value>
+    <value>ALL_OBJECT_TABLES</value>
+    <value>ALL_SEQUENCES</value>
+    <value>ALL_SNAPSHOTS</value>
+    <value>ALL_SOURCE</value>
+    <value>ALL_SYNONYMS</value>
+    <value>ALL_TABLES</value>
+    <value>ALL_TAB_COLUMNS</value>
+    <value>ALL_TAB_COL_STATISTICS</value>
+    <value>ALL_TAB_COMMENTS</value>
+    <value>ALL_TRIGGERS</value>
+    <value>ALL_TRIGGER_COLS</value>
+    <value>ALL_TYPES</value>
+    <value>ALL_UPDATABLE_COLUMNS</value>
+    <value>ALL_USERS</value>
+    <value>ALL_VIEWS</value>
+    <value>DATABASE_COMPATIBLE_LEVEL</value>
+    <value>DBA_DB_LINKS</value>
+    <value>DBA_ERRORS</value>
+    <value>DBA_OBJECTS</value>
+    <value>DBA_ROLES</value>
+    <value>DBA_ROLE_PRIVS</value>
+    <value>DBA_SOURCE</value>
+    <value>DBA_TABLESPACES</value>
+    <value>DBA_TAB_PRIVS</value>
+    <value>DBA_TRIGGERS</value>
+    <value>DBA_TS_QUOTAS</value>
+    <value>DBA_USERS</value>
+    <value>DBA_VIEWS</value>
+    <value>DICTIONARY</value>
+    <value>DICT_COLUMNS</value>
+    <value>GLOBAL_NAME</value>
+    <value>NLS_DATABASE_PARAMETERS</value>
+    <value>NLS_INSTANCE_PARAMETERS</value>
+    <value>NLS_SESSION_PARAMETERS</value>
+    <value>PRODUCT_COMPONENT_VERSION</value>
+    <value>ROLE_TAB_PRIVS</value>
+    <value>SESSION_PRIVS</value>
+    <value>SESSION_ROLES</value>
+    <value>SYSTEM_PRIVILEGE_MAP</value>
+    <value>TABLE_PRIVILEGES</value>
+    <value>TABLE_PRIVILEGE_MAP</value>
+   </property>
+   <property name = "type" operator = "eq" >
+    <value>SQLScriptTable</value>
+    <value>CAST_Oracle_RelationalTable</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "name" operator = "like" >
+    <value>%RPUD$%</value>
+    <value>%MLOG$%</value>
+   </property>
+   <property name = "type" operator = "eq" >
+    <value>SQLScriptTable</value>
+    <value>CAST_Oracle_RelationalTable</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Exclusion Quest" type = "Excluded items">
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "name" operator = "eq" >
+    <value>TOAD_PLAN_TABLE</value>
+   </property>
+   <property name = "type" operator = "eq" >
+    <value>SQLScriptTable</value>
+    <value>CAST_Oracle_RelationalTable</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
 </associations>
 <prefixes version="1.0.0.0" encoding="UTF-8">
 </prefixes>
 <ignoredtables version="1.0.0.0" encoding="UTF-8">
+  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
+  <value description="Status entities">^(.+status)$</value>
+  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
+  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
+  <value description="Template data entities">^(.*template.*)$</value>
+  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
 </ignoredtables>
 </setup>

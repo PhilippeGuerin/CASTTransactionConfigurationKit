@@ -1,0 +1,98 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Fri Aug 11 17:54:12 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Custom End Point SAP Interface with the SAP core" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>abapProgram</value>
+    <value>abapUnresolvedObject</value>
+   </property>
+   <property name = "name" operator = "notlike" >
+    <value>z%</value>
+    <value>Y%</value>
+    <value>\\%</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Default Entry Point SAP" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SAPTransaction</value>
+    <value>CAST_SAP_R3WDYN_Window</value>
+   </property>
+   <excluded-from set ="Custom Entry Point SAP Transaction called by other SAP Transaction (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point SAP Transaction calling other SAP Transaction (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SAPTransaction</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set ="Custom Entry Point SAP Transaction (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point SAP Transaction (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SAPTransaction</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point SAP Transaction called by other SAP Transaction (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SAPTransaction</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set ="Custom Entry Point SAP Transaction (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Default End Point SAP" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_SAP_BAPI</value>
+    <value>CAST_SAP_BAPI_METHOD</value>
+    <value>abapBadi</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
+  <value description="Template data entities">^(.*template.*)$</value>
+  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
+  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
+  <value description="Status entities">^(.+status)$</value>
+  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
+</ignoredtables>
+</setup>

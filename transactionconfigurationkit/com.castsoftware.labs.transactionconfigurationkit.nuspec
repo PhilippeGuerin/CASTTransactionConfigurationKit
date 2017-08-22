@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>com.castsoftware.labs.transactionconfigurationkit</id>
-    <title>Transaction Configuration Kit</title>
-    <version>1.9.0</version>
+    <title>SME KIT - Transaction Configuration Kit</title>
+    <version>1.9.3</version>
 	<authors>CAST Labs</authors>
     <owners>CAST</owners>
      <projectUrl>https://github.com/PhilippeGuerin/CASTTransactionConfigurationKit/wiki</projectUrl>
@@ -13,7 +13,7 @@
     <releaseNotes>Replacement of the definition by type in free definition for the default technology: AngularJS, BusinessObject, Delphi, DotNetSilverlight, DotNetWCF, DotNetWPF, DotNet, HTML5, IOS, JEE, JQuery, Mainframe, Natural, OracleFormsOracleReports
 PowerBuilder, Python, RDL, Sapui, SAP, SQR, Teradata, Tibco, Web, XPDL).
 Add-on for the following technologies: Addon_.Net, Addon_ABAP, Addon_DB2, Addon_EGL, Addon_FLEX, Addon_Java, Addon_Mainframe, Addon_PHP, Addon_PL1, Addon_RPG, Addon_SHELL.
-Also a merged of all config into AllTransactionSetup
+Also a merged of all config into AllTransactionSetup and some exclusion for oracle and quest.
 </releaseNotes>
  <tags>CASTLabs LongTerm CAIP8.2.x CAIP8.1.x CAIP8.0.x CAIP7.3.x CSS Oracle MS FPQuality FPConfiguration Configuration</tags>
     <dependencies>
