@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <Package	PackName = "TCK_TransacConfigurationLOCAL"
 			Type = "INTERNAL"
- 			Version ="1.9.0"
+ 			Version ="1.9.4"
 			SupportedServer = "ALL"
 			Display="TCK"
-			Description="Automated Fonction Points - Transaction Configuration kit"
+			Description="SME KIT - Transaction Configuration Kit"
       DatabaseKind="KB_LOCAL" >
 	<Include>
 		<PackName>DSSAPP_LOCAL</PackName>

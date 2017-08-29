@@ -3,17 +3,14 @@
   <metadata>
     <id>com.castsoftware.labs.transactionconfigurationkit</id>
     <title>SME KIT - Transaction Configuration Kit</title>
-    <version>1.9.3</version>
+    <version>1.9.4</version>
 	<authors>CAST Labs</authors>
     <owners>CAST</owners>
      <projectUrl>https://github.com/PhilippeGuerin/CASTTransactionConfigurationKit/wiki</projectUrl>
 	 <iconUrl>https://raw.githubusercontent.com/PhilippeGuerin/CASTTransactionConfigurationKit/master/TransactionConfigurationKit.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provide default set of transaction configuration which include definition by type, by name, by inheritance as well as free definitions for all beginning of transaction, end of transaction and exclusion. </description>
-    <releaseNotes>Replacement of the definition by type in free definition for the default technology: AngularJS, BusinessObject, Delphi, DotNetSilverlight, DotNetWCF, DotNetWPF, DotNet, HTML5, IOS, JEE, JQuery, Mainframe, Natural, OracleFormsOracleReports
-PowerBuilder, Python, RDL, Sapui, SAP, SQR, Teradata, Tibco, Web, XPDL).
-Add-on for the following technologies: Addon_.Net, Addon_ABAP, Addon_DB2, Addon_EGL, Addon_FLEX, Addon_Java, Addon_Mainframe, Addon_PHP, Addon_PL1, Addon_RPG, Addon_SHELL.
-Also a merged of all config into AllTransactionSetup and some exclusion for oracle and quest.
+    <releaseNotes>Addon for Entity Framework. Element of entity framework will be consider as data entity if there is no table as part of the analysis and the entity framework property are considered as end point if those are not calling any delivered tables.
 </releaseNotes>
  <tags>CASTLabs LongTerm CAIP8.2.x CAIP8.1.x CAIP8.0.x CAIP7.3.x CSS Oracle MS FPQuality FPConfiguration Configuration</tags>
     <dependencies>
