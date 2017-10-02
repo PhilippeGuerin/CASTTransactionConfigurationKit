@@ -1,0 +1,35 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Mon Sep 11 15:59:30 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Standard Exclusion - DB2 - System Tables" type = "Excluded items">
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "fullname" operator = "like" >
+    <value>%.SYSIBM.%</value>
+   </property>
+   <property name = "type" operator = "eq" >
+    <value>ALIAS</value>
+    <value>DB2ANALYZE</value>
+    <value>UDBDATABASE</value>
+    <value>UDBDISTINCTUDT</value>
+    <value>UDBINSTANCE</value>
+    <value>NICKNAME</value>
+    <value>UDBSCHEMA</value>
+    <value>STRUCTUDT</value>
+    <value>DB2_DYNAMIC_PROJECT</value>
+    <value>SYSTEM</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
+  <value description="Template data entities">^(.*template.*)$</value>
+  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
+  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
+  <value description="Status entities">^(.+status)$</value>
+  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
+</ignoredtables>
+</setup>

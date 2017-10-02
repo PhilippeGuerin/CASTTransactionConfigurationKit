@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<setup encoding="UTF-8" version="1.0.0.0">
+<associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="Tue May 16 12:27:56 EDT 2017" encoding="UTF-8" version="1.0.0.0" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name="Custom Data Function EGL EGL DATA Table" type="Data functions">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>EGLDataTable</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>5</value>
+ </attribute>
+ <attribute name="RET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom Data Function EGL EGL Record" type="Data functions">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>EGLRecord</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>5</value>
+ </attribute>
+ <attribute name="RET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name="Custom Entry Point EGL EGL Form" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>EGLForm</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Custom Entry Point EGL Main Program" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>EGLFunction</value>
+   </property>
+   <property name="name" operator="eq">
+    <value>main</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes encoding="UTF-8" version="1.0.0.0">
+</prefixes>
+<ignoredtables encoding="UTF-8" version="1.0.0.0">
+</ignoredtables>
+</setup>

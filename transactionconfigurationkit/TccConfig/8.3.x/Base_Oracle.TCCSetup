@@ -1,7 +1,7 @@
 <setup version="1.0.0.0" encoding="UTF-8">
-<associations package="Base_Oracle" version="1.0.0.0" encoding="UTF-8" date="Fri Aug 11 20:34:01 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<associations Package="Base_Oracle" version="1.0.0.0" encoding="UTF-8" date="Mon Oct 02 14:37:37 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
 <association>
- <set name = "Custom Exclusion Oracle System Tables" type = "Excluded items">
+ <set name = "Standard Exclusion - Oracle - System Tables" type = "Excluded items">
   <selection-criteria subobjects="yes" externalobjects="yes">
    <property name = "name" operator = "eq" >
     <value>PLAN_TABLE</value>
@@ -76,7 +76,7 @@
  </set>
 </association>
 <association>
- <set name = "Custom Exclusion Quest" type = "Excluded items">
+ <set name = "Standard Exclusion - Oracle - Quest Tables" type = "Excluded items">
   <selection-criteria subobjects="yes" externalobjects="yes">
    <property name = "name" operator = "eq" >
     <value>TOAD_PLAN_TABLE</value>
@@ -92,17 +92,5 @@
 <prefixes version="1.0.0.0" encoding="UTF-8">
 </prefixes>
 <ignoredtables version="1.0.0.0" encoding="UTF-8">
-  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
-  <value description="Template data entities">^(.*template.*)$</value>
-  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
-  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
-  <value description="Status entities">^(.+status)$</value>
-  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
-  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
-  <value description="Template data entities">^(.*template.*)$</value>
-  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
-  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
-  <value description="Status entities">^(.+status)$</value>
-  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
 </ignoredtables>
 </setup>

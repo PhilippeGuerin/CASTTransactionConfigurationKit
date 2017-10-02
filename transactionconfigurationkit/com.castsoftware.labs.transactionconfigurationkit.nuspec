@@ -3,14 +3,14 @@
   <metadata>
     <id>com.castsoftware.labs.transactionconfigurationkit</id>
     <title>SME KIT - Transaction Configuration Kit</title>
-    <version>1.9.4</version>
+    <version>1.9.8</version>
 	<authors>CAST Labs</authors>
     <owners>CAST</owners>
      <projectUrl>https://github.com/PhilippeGuerin/CASTTransactionConfigurationKit/wiki</projectUrl>
 	 <iconUrl>https://raw.githubusercontent.com/PhilippeGuerin/CASTTransactionConfigurationKit/master/TransactionConfigurationKit.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provide default set of transaction configuration which include definition by type, by name, by inheritance as well as free definitions for all beginning of transaction, end of transaction and exclusion. </description>
-    <releaseNotes>Addon for Entity Framework. Element of entity framework will be consider as data entity if there is no table as part of the analysis and the entity framework property are considered as end point if those are not calling any delivered tables.
+    <releaseNotes>Fix on end of transaction for C++
 </releaseNotes>
  <tags>CASTLabs LongTerm CAIP8.2.x CAIP8.1.x CAIP8.0.x CAIP7.3.x CSS Oracle MS FPQuality FPConfiguration Configuration</tags>
     <dependencies>

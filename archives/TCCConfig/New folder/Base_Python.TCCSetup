@@ -1,0 +1,178 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Mon Sep 11 15:56:24 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Standard Entry Point - Python" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_Python_Script</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "All Objects (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "name" operator = "notlike" >
+    <value>Everybody</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard DB Objects (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>Storage_Model_Table</value>
+    <value>CAST_ASETSQL_RelationalTable</value>
+    <value>CAST_SQL_UnresolvedTableSource</value>
+    <value>SQLScriptTable</value>
+    <value>SIEBEL_T_WAREHOUSE</value>
+    <value>SIEBEL_T_VIRTUAL_TABLE</value>
+    <value>SIEBEL_T_UNKNOWN_TYPE</value>
+    <value>SIEBEL_T_REPOSITORY</value>
+    <value>SIEBEL_T_INTERFACE</value>
+    <value>SIEBEL_T_EXTERNAL_VIEW</value>
+    <value>SIEBEL_T_EXTERNAL</value>
+    <value>SIEBEL_T_EXTENSION_SIEBEL</value>
+    <value>SIEBEL_T_EXTENSION</value>
+    <value>SIEBEL_T_DICTIONARY</value>
+    <value>SIEBEL_T_DATA_PUBLIC</value>
+    <value>SIEBEL_T_DATA_PRIVATE</value>
+    <value>SIEBEL_T_DATA_INTERSECTION</value>
+    <value>SQL_TABLE</value>
+    <value>CAST_TSQL_UDT_TABLE</value>
+    <value>ProgressTempTable</value>
+    <value>ProgressWorkTable</value>
+    <value>ProgressDatabaseTable</value>
+    <value>PLIDB2Table</value>
+    <value>PLCDB2Table</value>
+    <value>PSoft_RecordTable</value>
+    <value>CAST_Oracle_RelationalTable</value>
+    <value>CAST_Oracle_ObjectTable</value>
+    <value>CAST_MSTSQL_RelationalTable</value>
+    <value>IngresTable</value>
+    <value>EGLDataTable</value>
+    <value>CAST_NodeJS_Unknown_Database_Table</value>
+    <value>DB400Table</value>
+    <value>CAST_DB2ZOS_RelationalTable</value>
+    <value>DataStageUserTable</value>
+    <value>DataStageTargetTABLE</value>
+    <value>CAST_ABAP_SAPUnresolvedTable</value>
+    <value>SAPTable</value>
+    <value>CAST_SAPUI5_HTMLView</value>
+    <value>SIEBEL_SCREEN_VIEW</value>
+    <value>DataviewDeclaration</value>
+    <value>SIEBEL_VIEW_TASKGROUP</value>
+    <value>IdealDataView</value>
+    <value>CAST_SAPUI5_JSView</value>
+    <value>DataStageCContainerView</value>
+    <value>SIEBEL_FIND_VIEW</value>
+    <value>CAST_Oracle_MaterializedView</value>
+    <value>SIEBEL_FIND_PICKVIEW</value>
+    <value>RemedyView</value>
+    <value>PSoft_RecordView</value>
+    <value>SAPView</value>
+    <value>CAST_DB2ZOS_View</value>
+    <value>CAST_ASETSQL_View</value>
+    <value>DB400View</value>
+    <value>CAST_MSTSQL_View</value>
+    <value>SIEBEL_VIEW_REPORT</value>
+    <value>CAST_Oracle_View</value>
+    <value>SIEBEL_WEB_TMPL_VIEW_TMPL</value>
+    <value>SQLScriptViewSynonym</value>
+    <value>VIEW</value>
+    <value>CAST_SAPUI5_XMLView</value>
+    <value>SQLScriptView</value>
+    <value>SIEBEL_VIEW_LAYOUT</value>
+    <value>CAST_SAP_R3WDYN_View</value>
+    <value>CAST_SAP_R3WDYN_InterfaceView</value>
+    <value>CAST_SAPUI5_JSONView</value>
+    <value>NaturalView</value>
+    <value>SIEBEL_VIEW_WEB_TMPL</value>
+    <value>SIEBEL_VIEW</value>
+    <value>AdabasView</value>
+    <value>CognosView</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard End Point - Python - Query" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_SQL_NamedQuery</value>
+   </property>
+   <excluded-from set ="Standard End Point - Python - Query CallerDB (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Standard End Point - Python - Query CallerDB (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>HIB_HQL_NAMED_QUERY</value>
+    <value>HIB_SQL_NAMED_QUERY</value>
+    <value>JPA_NAMED_NATIVE_QUERY</value>
+    <value>JPA_NAMED_QUERY</value>
+    <value>CAST_SQL_NamedQuery</value>
+   </property>
+   <caller-of>
+    <link-type>Use</link-type>
+    <member-of set ="Standard DB Objects (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard End Point - Python - Read / Write" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_Python_Method</value>
+   </property>
+   <excluded-from set ="Standard End Point - Python - Read / Write API (GS)"/>
+   <property name = "name" operator = "like" >
+    <value>%write%</value>
+    <value>%read%</value>
+    <value>%close%</value>
+    <value>%stream%</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Standard End Point - Python - Read / Write API (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_Python_Method</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set ="All Objects (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
+  <value description="Template data entities">^(.*template.*)$</value>
+  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
+  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
+  <value description="Status entities">^(.+status)$</value>
+  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
+</ignoredtables>
+</setup>

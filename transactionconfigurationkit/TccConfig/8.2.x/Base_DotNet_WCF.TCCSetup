@@ -1,7 +1,7 @@
 <setup version="1.0.0.0" encoding="UTF-8">
-<associations version="1.0.0.0" encoding="UTF-8" date="Fri Aug 11 18:42:36 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<associations version="1.0.0.0" encoding="UTF-8" date="Mon Oct 02 12:51:16 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
 <association>
- <set name = "Default Entry Point WCF" type = "Transaction entry points">
+ <set name = "Standard Entry Point - .Net - WCF" type = "Transaction entry points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>WCFService</value>
@@ -10,12 +10,12 @@
  </set>
 </association>
 <association>
- <set name = "Custom End Point .Net WCF" type = "Transaction end points">
+ <set name = "Standard End Point - .Net - WCF" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>ClientEndpoint</value>
    </property>
-   <excluded-from set ="Custom End Point .Net WCF Calling Server (GS)"/>
+   <excluded-from set ="Standard End Point - .Net - WCF Calling Server (GS)"/>
   </selection-criteria>
  </set>
  <attribute name="Contribute">
@@ -26,23 +26,32 @@
  </attribute>
 </association>
 <association>
- <set name = "Custom End Point .Net WCF Calling Server (GS)" type = "Generic sets">
+ <set name = "Standard End Point - .Net - WCF Calling Server (GS)" type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>ClientEndpoint</value>
    </property>
    <caller-of>
     <link-type>Call</link-type>
-    <member-of set ="Custom End Point .Net WCF (GS) "/>
+    <member-of set ="Standard End Point - .Net - WCF (GS) "/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name = "Custom End Point .Net WCF (GS) " type = "Generic sets">
+ <set name = "Standard End Point - .Net - WCF (GS) " type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>WCFService</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "All Objects (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "name" operator = "notlike" >
+    <value>Everybody</value>
    </property>
   </selection-criteria>
  </set>
@@ -51,11 +60,5 @@
 <prefixes version="1.0.0.0" encoding="UTF-8">
 </prefixes>
 <ignoredtables version="1.0.0.0" encoding="UTF-8">
-  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
-  <value description="Template data entities">^(.*template.*)$</value>
-  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
-  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
-  <value description="Status entities">^(.+status)$</value>
-  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
 </ignoredtables>
 </setup>

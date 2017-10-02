@@ -1,14 +1,113 @@
 <setup version="1.0.0.0" encoding="UTF-8">
-<associations package="Base_JavaJaxRS" version="1.0.0.0" encoding="UTF-8" date="Fri Aug 11 20:04:10 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<associations Package="Base_JaxRS" version="1.0.0.0" encoding="UTF-8" date="Mon Oct 02 12:31:02 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Standard End Point - Java - javax.ws.rs" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Standard End Point - Java - javax.ws.rs (GS)"/>
+   </caller-of>
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_INTERFACE</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Standard End Point - Java - javax.ws.rs (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_METHOD</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Standard End Point - Java - javax.ws.rs (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Standard End Point - Java - javax.ws.rs (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>JV_CLASS</value>
+    <value>JV_INTERFACE</value>
+    <value>JV_METHOD</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>javax.ws.rs.%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard Entry Point - Java - JAXRS - java.ws.rs REST (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_Java_AnnotationType</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>javax.ws.rs.path</value>
+    <value>javax.ws.rs.get</value>
+    <value>javax.ws.rs.post</value>
+    <value>javax.ws.rs.delete</value>
+    <value>javax.ws.rs.put</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard Entry Point - Java - JAXRS" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_JAXRS_GetOperation</value>
+    <value>CAST_JAXRS_DeleteOperation</value>
+    <value>CAST_JAXRS_PostOperation</value>
+    <value>CAST_JAXRS_PutOperation</value>
+   </property>
+   <excluded-from set ="Standard Entry Point - Java - JAXRS - java.ws.rs REST Called APIs (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "All Objects (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "name" operator = "notlike" >
+    <value>Everybody</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard Entry Point - Java - JAXRS - java.ws.rs REST Called APIs (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_JAXRS_GetOperation</value>
+    <value>CAST_JAXRS_DeleteOperation</value>
+    <value>CAST_JAXRS_PostOperation</value>
+    <value>CAST_JAXRS_PutOperation</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set ="All Objects (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
 </associations>
 <prefixes version="1.0.0.0" encoding="UTF-8">
 </prefixes>
 <ignoredtables version="1.0.0.0" encoding="UTF-8">
-  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
-  <value description="Template data entities">^(.*template.*)$</value>
-  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
-  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
-  <value description="Status entities">^(.+status)$</value>
-  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
 </ignoredtables>
 </setup>

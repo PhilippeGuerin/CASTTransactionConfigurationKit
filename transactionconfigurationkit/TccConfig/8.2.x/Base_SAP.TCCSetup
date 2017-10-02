@@ -1,0 +1,223 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Mon Oct 02 14:43:58 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Standard End Point - SAP - Interface with the SAP core" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>abapProgram</value>
+    <value>abapUnresolvedObject</value>
+   </property>
+   <property name = "name" operator = "notlike" >
+    <value>z%</value>
+    <value>Y%</value>
+    <value>\\%</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Standard Entry Point - SAP" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SAPTransaction</value>
+    <value>CAST_SAP_R3WDYN_Window</value>
+   </property>
+   <excluded-from set ="Standard Entry Point - SAP - Transaction called by other SAP Transaction (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard Entry Point - SAP - Transaction calling other SAP Transaction (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SAPTransaction</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set ="Standard Entry Point - SAP - Transaction (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard Entry Point - SAP - Transaction (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SAPTransaction</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard Entry Point - SAP - Transaction called by other SAP Transaction (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SAPTransaction</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set ="Standard Entry Point - SAP - Transaction calling other SAP Transaction (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard End Point - SAP" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_SAP_BAPI</value>
+    <value>CAST_SAP_BAPI_METHOD</value>
+    <value>abapBadi</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+</association>
+<association>
+ <set name = "All Objects (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "name" operator = "notlike" >
+    <value>Everybody</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard DB Objects (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_MSTSQL_Database</value>
+    <value>CAST_MSTSQL_DML_Trigger</value>
+    <value>CAST_SQL_MSTSQL_ExternalProject</value>
+    <value>CAST_MSTSQL_ForeignKeyConstraint</value>
+    <value>CAST_MSTSQL_Function</value>
+    <value>CAST_MSTSQL_Index</value>
+    <value>CAST_MSTSQL_Instance</value>
+    <value>CAST_MSTSQL_PrimaryKeyConstraint</value>
+    <value>CAST_MSTSQL_Procedure</value>
+    <value>CAST_MSTSQL_Schema</value>
+    <value>CAST_MSTSQL_RelationalTable</value>
+    <value>CAST_MSTSQL_TableColumn</value>
+    <value>CAST_MSTSQL_UniqueConstraint</value>
+    <value>CAST_MSTSQL_View</value>
+    <value>CAST_MSTSQL_ViewColumn</value>
+    <value>CAST_ASETSQL_Database</value>
+    <value>CAST_ASETSQL_DML_Trigger</value>
+    <value>CAST_SQL_ASETSQL_ExternalProject</value>
+    <value>CAST_ASETSQL_ForeignKeyConstraint</value>
+    <value>CAST_ASETSQL_Index</value>
+    <value>CAST_ASETSQL_Instance</value>
+    <value>CAST_ASETSQL_JFunction</value>
+    <value>CAST_ASETSQL_PrimaryKeyConstraint</value>
+    <value>CAST_ASETSQL_Procedure</value>
+    <value>CAST_ASETSQL_Schema</value>
+    <value>CAST_ASETSQL_RelationalTable</value>
+    <value>CAST_ASETSQL_TableColumn</value>
+    <value>CAST_ASETSQL_UniqueConstraint</value>
+    <value>CAST_ASETSQL_View</value>
+    <value>CAST_ASETSQL_ViewColumn</value>
+    <value>CLUSTER</value>
+    <value>ALIAS</value>
+    <value>DB2ANALYZE</value>
+    <value>UDBDATABASE</value>
+    <value>UDBDISTINCTUDT</value>
+    <value>UDBINSTANCE</value>
+    <value>NICKNAME</value>
+    <value>UDBSCHEMA</value>
+    <value>STRUCTUDT</value>
+    <value>DB2_DYNAMIC_PROJECT</value>
+    <value>SYSTEM</value>
+    <value>DEFAULT</value>
+    <value>SQL_DBLINK</value>
+    <value>TYPEHEADER</value>
+    <value>SQL_PACKAGE</value>
+    <value>SUBCURSORHEADER</value>
+    <value>SUBFUNCHEADER</value>
+    <value>SUBPROCHEADER</value>
+    <value>TYPEPACKAGEHEADER</value>
+    <value>SUBVARIABLEHEADER</value>
+    <value>SQL_SCHEMA</value>
+    <value>SQL_SEQUENCE</value>
+    <value>ORACLESERVER</value>
+    <value>SYNONYM</value>
+    <value>PLSQLFILE</value>
+    <value>SQL_COLUMN</value>
+    <value>SQL_FUNCTION</value>
+    <value>SQL_INDEX</value>
+    <value>SQL_PROC</value>
+    <value>MSSERVER</value>
+    <value>DATABASE</value>
+    <value>TSQL_DYNAMIC_PROJECT</value>
+    <value>SQL_UDT</value>
+    <value>CAST_TSQL_UDT_TABLE</value>
+    <value>SQL_TABLE</value>
+    <value>SQL_TRIGGER</value>
+    <value>VIEW</value>
+    <value>TYPE</value>
+    <value>CAST_Oracle_BitmapIndex</value>
+    <value>CAST_Oracle_CheckConstraint</value>
+    <value>CAST_Oracle_Event_Trigger</value>
+    <value>CAST_Oracle_DatabaseLink</value>
+    <value>CAST_Oracle_DDL_Trigger</value>
+    <value>CAST_Oracle_DefaultConstraint</value>
+    <value>CAST_Oracle_DML_Trigger</value>
+    <value>CAST_SQL_PLSQL_ExternalProject</value>
+    <value>CAST_Oracle_ForeignKeyConstraint</value>
+    <value>CAST_Oracle_Function</value>
+    <value>CAST_Oracle_FunctionBasedIndex</value>
+    <value>CAST_Oracle_Index</value>
+    <value>CAST_Oracle_Instance</value>
+    <value>CAST_Oracle_MaterializedView</value>
+    <value>CAST_Oracle_ObjectTable</value>
+    <value>CAST_Oracle_ObjectType</value>
+    <value>CAST_Oracle_PackageBody</value>
+    <value>CAST_Oracle_Cursor</value>
+    <value>CAST_Oracle_PackageHeader</value>
+    <value>CAST_Oracle_PrimaryKeyConstraint</value>
+    <value>CAST_Oracle_PrivateFunction</value>
+    <value>CAST_Oracle_PrivateProcedure</value>
+    <value>CAST_Oracle_PrivateSynonym</value>
+    <value>CAST_Oracle_Procedure</value>
+    <value>CAST_SQL_PLSQL_Project</value>
+    <value>CAST_Oracle_PublicSynonym</value>
+    <value>CAST_Oracle_Schema</value>
+    <value>CAST_Oracle_Sequence</value>
+    <value>CAST_Oracle_RelationalTable</value>
+    <value>CAST_Oracle_TableColumn</value>
+    <value>CAST_Oracle_UniqueConstraint</value>
+    <value>CAST_Oracle_View</value>
+    <value>CAST_Oracle_ViewColumn</value>
+    <value>CAST_DB2ZOS_Database</value>
+    <value>CAST_DB2ZOS_DML_Trigger</value>
+    <value>CAST_DB2ZOS_ForeignKeyConstraint</value>
+    <value>CAST_DB2ZOS_Function</value>
+    <value>CAST_DB2ZOS_Index</value>
+    <value>CAST_DB2ZOS_PrivateProcedure</value>
+    <value>CAST_DB2ZOS_Procedure</value>
+    <value>CAST_SQL_DB2ZOS_Project</value>
+    <value>CAST_DB2ZOS_RelationalTable</value>
+    <value>CAST_DB2ZOS_Schema</value>
+    <value>CAST_DB2ZOS_TableColumn</value>
+    <value>CAST_DB2ZOS_View</value>
+    <value>CAST_DB2ZOS_ViewColumn</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+</ignoredtables>
+</setup>

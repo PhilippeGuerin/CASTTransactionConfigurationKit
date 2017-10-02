@@ -1,0 +1,34 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Mon Oct 02 13:06:54 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Default Entry Point IMS DC" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>IMSDCTransaction</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point IMS DC" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>MFS-FMT</value>
+    <value>MFS-MID</value>
+    <value>MFS-MOD</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+</ignoredtables>
+</setup>

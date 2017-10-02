@@ -1,0 +1,40 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Mon Oct 02 14:52:45 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Standard Entry Point - BPEL" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SOA_UA_BPELInvoke</value>
+   </property>
+   <excluded-from set ="Standard Entry Point - BPEL (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Standard Entry Point - BPEL (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>SOA_UA_BPELInvoke</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set ="All Objects (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "All Objects (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "name" operator = "notlike" >
+    <value>Everybody</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+</ignoredtables>
+</setup>

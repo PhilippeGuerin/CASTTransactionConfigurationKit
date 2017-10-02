@@ -1,0 +1,46 @@
+ Volume in drive C is Windows7_OS
+ Volume Serial Number is 06C8-6B1B
+
+ Directory of C:\DEV\CASTTransactionConfigurationKit\transactionconfigurationkit\TccConfig\8.2.x
+
+05/16/2017  12:57 PM    <DIR>          .
+05/16/2017  12:57 PM    <DIR>          ..
+05/16/2017  12:36 PM            91,548 Addon_.Net_8.2.x_V05.TCCSetup
+05/16/2017  12:36 PM             4,207 Addon_ABAP_8.2.x_V04.TCCSetup
+05/16/2017  12:36 PM             1,107 Addon_DB2_8.2.x_V02.TCCSetup
+05/16/2017  12:36 PM             1,937 Addon_EGL_8.2.x_V02.TCCSetup
+05/16/2017  12:37 PM               832 Addon_FLEX_8.2.x_V02.TCCSetup
+05/16/2017  12:37 PM           141,030 Addon_Java_8.2.x_V10.TCCSetup
+05/16/2017  12:37 PM            13,072 Addon_Mainframe_8.2.x_V10.TCCSetup
+05/16/2017  12:38 PM               820 Addon_PHP_8.2.x_V02.TCCSetup
+05/16/2017  12:38 PM             1,944 Addon_PL1_8.2.x_V02.TCCSetup
+05/16/2017  12:38 PM             6,192 Addon_RPG_8.2.x_V06.TCCSetup
+05/16/2017  12:36 PM             2,630 Addon_SHELL_8.2.x_V02.TCCSetup
+05/16/2017  12:46 PM           267,044 AllTransactionSetup_8.2.x_v01.TCCSetup
+05/16/2017  12:38 PM               752 Default_AngularJS_8.2.x_V01.TCCSetup
+05/16/2017  12:38 PM               740 Default_BusinessObject_8.2.x_V01.TCCSetup
+05/16/2017  12:39 PM               734 Default_Delphi_8.2.x_V01.TCCSetup
+05/16/2017  12:39 PM               786 Default_DotNetSilverlight_8.2.x_V01.TCCSetup
+05/16/2017  12:39 PM               555 Default_DotNetWCF_8.2.x_V01.TCCSetup
+05/16/2017  12:42 PM               772 Default_DotNetWPF_8.2.x_V01.TCCSetup
+05/16/2017  12:39 PM             1,954 Default_DotNet_8.2.x_V01.TCCSetup
+05/16/2017  12:40 PM               916 Default_HTML5_8.2.x_V01.TCCSetup
+05/16/2017  12:45 PM               838 Default_IOS_8.2.x_V01.TCCSetup
+05/16/2017  12:45 PM               735 Default_JEE_8.2.x_V01.TCCSetup
+05/16/2017  12:45 PM               743 Default_JQuery_8.2.x_V01.TCCSetup
+05/16/2017  12:45 PM             1,030 Default_Mainframe_8.2.x_V01.TCCSetup
+05/16/2017  12:44 PM               734 Default_Natural_8.2.x_V01.TCCSetup
+05/16/2017  12:44 PM               938 Default_OracleFormsOracleReports_8.2.x_V01.TCCSetup
+05/16/2017  12:44 PM               738 Default_PowerBuilder_8.2.x_V01.TCCSetup
+05/16/2017  12:44 PM               741 Default_Python_8.2.x_V01.TCCSetup
+05/16/2017  12:44 PM               729 Default_RDL_8.2.x_V01.TCCSetup
+05/16/2017  12:43 PM               863 Default_Sapui5_8.2.x_V01.TCCSetup
+05/16/2017  12:43 PM               734 Default_SAP_8.2.x_V01.TCCSetup
+05/16/2017  12:43 PM               730 Default_SQR_8.2.x_V01.TCCSetup
+05/16/2017  12:40 PM               732 Default_Teradata_8.2.x_V01.TCCSetup
+05/16/2017  12:40 PM               742 Default_Tibco_8.2.x_V01.TCCSetup
+05/16/2017  12:41 PM               733 Default_Web_8.2.x_V01.TCCSetup
+05/16/2017  12:41 PM               890 Default_XPDL_8.2.x_V01.TCCSetup
+05/16/2017  12:57 PM                 0 file.txt
+              37 File(s)        552,222 bytes
+               2 Dir(s)  29,371,314,176 bytes free

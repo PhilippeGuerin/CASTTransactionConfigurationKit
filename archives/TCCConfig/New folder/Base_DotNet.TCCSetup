@@ -1,0 +1,2472 @@
+<setup version="1.0.0.0" encoding="UTF-8">
+<associations version="1.0.0.0" encoding="UTF-8" date="Fri Aug 11 18:19:10 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name = "Custom End Point .Net System.Console (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Console.Write</value>
+    <value>System.Console.WriteLine</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Console" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Console (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.Office.Interop.Excel (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>Microsoft.Office.Interop.Excel.Workbooks.Open</value>
+    <value>Microsoft.Office.Interop.Excel._Workbook.Close</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.Office.Interop.Excel" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.Office.Interop.Excel (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Data (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Data.IDbCommand.ExecuteNonQuery</value>
+    <value>System.Data.IDbCommand.ExecuteReader</value>
+    <value>System.Data.Linq.DataContext.ExecuteMethodCall</value>
+    <value>System.Data.Linq.IExecuteResult</value>
+    <value>System.Data.Linq.IMultipleResults</value>
+    <value>System.Data.OleDb.OleDbCommand.ExecuteNonQuery</value>
+    <value>System.Data.OleDb.OleDbCommand.ExecuteReader</value>
+    <value>System.Data.OracleClient.OracleCommand.ExecuteNonQuery</value>
+    <value>System.Data.OracleClient.OracleConnection.CreateCommand</value>
+    <value>System.Data.OleDb.OleDbCommand.OleDbCommand</value>
+    <value>System.Data.IDbCommand.ExecuteNonQuery</value>
+    <value>System.Data.IDbCommand.ExecuteReader</value>
+    <value>System.Data.IDbConnection.CreateCommand</value>
+    <value>System.Data.SqlClient.SqlCommand.ExecuteNonQuery</value>
+    <value>System.Data.SqlClient.SqlCommand.ExecuteReader</value>
+    <value>System.Data.SqlClient.SqlCommand.ExecuteXmlReader</value>
+    <value>System.Data.SqlClient.SqlCommand.SqlCommand</value>
+    <value>System.Data.SqlClient.SqlConnection.CreateCommand</value>
+    <value>System.Data.SqlClient.SqlDataReader.Read</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Data.Common.DbCommand.ExecuteNonQuery</value>
+    <value>System.Data.Common.DbCommand.ExecuteReader</value>
+    <value>System.Data.Common.DbDataReader.DbDataReader</value>
+    <value>System.Data.Common.DbDataReader.Read</value>
+    <value>System.Data.Common.DbProviderFactory.CreateCommand</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Data.DataSet.ReadXml</value>
+    <value>System.Data.DataSet.WriteXml</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Data.Common.DbTransaction%</value>
+    <value>System.Data.Common.DbDataReader%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Data" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Data (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.DirectoryServices (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.ChangePassword</value>
+    <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.RefreshExpiredPassword</value>
+    <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.ExpirePasswordNow</value>
+    <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.IsAccountLockedOut</value>
+    <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.SetPassword</value>
+    <value>System.DirectoryServices.AccountManagement.AuthenticablePrincipal.UnlockAccount</value>
+    <value>System.DirectoryServices.AccountManagement.Principal.Delete</value>
+    <value>System.DirectoryServices.AccountManagement.Principal.Dispose</value>
+    <value>System.DirectoryServices.AccountManagement.Principal.Save</value>
+    <value>System.DirectoryServices.AccountManagement.UserPrincipal.FindByIdentity</value>
+    <value>System.DirectoryServices.DirectoryEntries.Add</value>
+    <value>System.DirectoryServices.DirectoryEntries.Find</value>
+    <value>System.DirectoryServices.DirectoryEntries.Remove</value>
+    <value>System.DirectoryServices.DirectoryEntry.Rename</value>
+    <value>System.DirectoryServices.DirectorySearcher.FindAll</value>
+    <value>System.DirectoryServices.DirectorySearcher.FindOne</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.DirectoryServices" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.DirectoryServices (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.IO (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.IO.BinaryReader.BinaryReader%</value>
+    <value>System.IO.BinaryWriter.BinaryWriter%</value>
+    <value>System.IO.BinaryWriter.Write%</value>
+    <value>System.IO.Directory.CreateDirectory%</value>
+    <value>System.IO.Directory.Delete%</value>
+    <value>System.IO.BinaryWriter.Flush%</value>
+    <value>System.IO.BinaryReader.ReadBytes%</value>
+    <value>System.IO.Directory.GetDirectories%</value>
+    <value>System.IO.Directory.GetFiles%</value>
+    <value>System.IO.DirectoryInfo.GetFiles%</value>
+    <value>System.IO.File.Copy%</value>
+    <value>System.IO.File.Delete%</value>
+    <value>System.IO.File.Open%</value>
+    <value>System.IO.File.OpenRead%</value>
+    <value>System.IO.File.ReadAllText%</value>
+    <value>System.IO.File.WriteAllText%</value>
+    <value>System.IO.FileStream.FileStream%</value>
+    <value>System.IO.MemoryStream.ReadByte%</value>
+    <value>System.IO.MemoryStream.MemoryStream%</value>
+    <value>System.IO.MemoryStream.Flush%</value>
+    <value>System.IO.Stream.ReadByte%</value>
+    <value>System.IO.Stream.Write%</value>
+    <value>System.IO.StreamReader.ReadToEnd</value>
+    <value>System.IO.StreamReader.ReadLine</value>
+    <value>System.IO.StreamReader.StreamReader</value>
+    <value>System.IO.StreamWriter.StreamWriter%</value>
+    <value>System.IO.StreamWriter.Write%</value>
+    <value>System.IO.StringReader.StringReader%</value>
+    <value>System.IO.StringWriter.StringWriter%</value>
+    <value>System.IO.TextReader.Read%</value>
+    <value>System.IO.TextReader.ReadLine%</value>
+    <value>System.IO.TextReader.ReadToEnd%</value>
+    <value>System.IO.TextWriter.Write%</value>
+    <value>System.IO.TextWriter.WriteLine%</value>
+    <value>System.IO.Compression.GZipStream%</value>
+    <value>System.IO.FileInfo%</value>
+    <value>System.IO.FileSystemInfo%</value>
+    <value>System.IO.Path%</value>
+    <value>System.IO.Stream.Read%</value>
+    <value>System.IO.Stream.Begin%</value>
+    <value>System.IO.TextReader%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.IO" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.IO (GS)"/>
+   </caller-of>
+   <property name = "name" operator = "notlike" >
+    <value>%Log%</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Messaging (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Messaging.Message.Message</value>
+    <value>System.Messaging.MessageQueue.MessageQueue</value>
+    <value>System.Messaging.MessageQueue.Send</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Messaging" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Messaging (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Net (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Net.WebClient.UploadString</value>
+    <value>System.Net.WebClient.DownloadData</value>
+    <value>System.Net.WebRequest.Create</value>
+    <value>System.Net.WebResponse.GetResponseStream</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Net.Mail.Attachment%</value>
+    <value>System.Net.Mail.MailAddress%</value>
+    <value>System.Net.Mail.MailAddressCollection%</value>
+    <value>System.Net.Mail.MailMessage%</value>
+    <value>System.Net.Mail.SmtpClient%</value>
+    <value>System.Net.NetworkCredential%</value>
+    <value>System.Net.ServicePointManager%</value>
+    <value>System.Net.WebResponse%</value>
+    <value>System.Net.WebRequest%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Net" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Net (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Reflection (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Reflection.Assembly.Load</value>
+    <value>System.Reflection.Assembly.LoadFile</value>
+    <value>System.Reflection.AssemblyName%</value>
+    <value>System.Reflection.ConstructorInfo%</value>
+    <value>System.Reflection.FieldInfo%</value>
+    <value>System.Reflection.MemberInfo%</value>
+    <value>System.Reflection.MethodBase%</value>
+    <value>System.Reflection.MethodInfo%</value>
+    <value>System.Reflection.ParameterInfo%</value>
+    <value>System.Reflection.PropertyInfo%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Reflection" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Reflection (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Security.Cryptography (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Security.Cryptography.CryptoStream.Write</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Security.Cryptography.MD5CryptoServiceProvider%</value>
+    <value>System.Security.Cryptography.CryptoStream%</value>
+    <value>System.Security.Principal.WindowsIdentity%</value>
+    <value>System.Security.Cryptography.SymmetricAlgorithm%</value>
+    <value>System.Security.Cryptography.RijndaelManaged%</value>
+    <value>System.Security.Cryptography.HashAlgorithm%</value>
+    <value>System.Security.Cryptography.CryptoStream%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Security.Cryptography" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Security.Cryptography (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Web.Services (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Web.Services.Protocols.SoapExtension.ChainStream</value>
+    <value>System.Web.Services.Protocols.SoapExtension.ProcessMessage</value>
+    <value>System.Web.Services.WebService.WebService</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Web.Services.WebService%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Web.Services" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Web.Services (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Xml (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Xml.XmlDocument.Load</value>
+    <value>System.Xml.XmlDocument.Save</value>
+    <value>System.Xml.XmlDocument.LoadXml</value>
+    <value>System.Xml.XmlDocument.XmlDocument</value>
+    <value>System.Xml.XmlNodeReader.XmlNodeReader</value>
+    <value>System.Xml.XmlTextReader.Read</value>
+    <value>System.Xml.XmlWriter.WriteNode</value>
+    <value>System.Xml.Xsl.XslTransform.Load</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Xml.XmlAttribute%</value>
+    <value>System.Xml.XmlAttributeCollection%</value>
+    <value>System.Xml.XmlDocument%</value>
+    <value>System.Xml.XmlElement%</value>
+    <value>System.Xml.XmlNode%</value>
+    <value>System.Xml.XmlNodeList%</value>
+    <value>System.Xml.XmlParserContext%</value>
+    <value>System.Xml.XmlQualifiedName%</value>
+    <value>System.Xml.XmlReader%</value>
+    <value>System.Xml.XmlResolver%</value>
+    <value>System.Xml.XmlTextReader%</value>
+    <value>System.Xml.XmlTextWriter%</value>
+    <value>System.Xml.XmlUrlResolver%</value>
+    <value>System.Xml.XmlWriter%</value>
+    <value>System.Xml.Xsl.XslTransform%</value>
+    <value>System.Xml.XmlWriterSettings%</value>
+    <value>System.Xml.XmlReaderSettings%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Xml" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Xml (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Chilkat (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Chilkat.Gzip%</value>
+    <value>Chilkat.Zip%</value>
+    <value>Chilkat.ZipEntry%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Ionic (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Ionic.Zip.ZipFile%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.Practices.EnterpriseLibrary.Data (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Microsoft.Practices.EnterpriseLibrary.Data.Database%</value>
+    <value>Microsoft.Practices.EnterpriseLibrary.Data.Sql.SqlDatabase%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.Security.Application (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Microsoft.Security.Application.Encoder%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.SqlServer.Server (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Microsoft.SqlServer.Server.SqlDataRecord%</value>
+    <value>Microsoft.SqlServer.Server.SqlMetaData%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.ApplicationServices (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Microsoft.VisualBasic.ApplicationServices.WebUser%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.Devices (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Microsoft.VisualBasic.Devices.Computer%</value>
+    <value>Microsoft.VisualBasic.Devices.ServerComputer%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.FileIO (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Microsoft.VisualBasic.FileIO.FileSystem%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.FileSystem (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Microsoft.VisualBasic.FileSystem%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.MyServices (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Microsoft.VisualBasic.MyServices.ClipboardProxy%</value>
+    <value>Microsoft.VisualBasic.MyServices.FileSystemProxy%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net NewRiver (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>NewRiver.BusinessLogic.EmailSystem.Email%</value>
+    <value>NewRiver.BusinessLogic.EmailSystem.EmailProperties%</value>
+    <value>NewRiver.Common.Configuration.ConfigurationReader%</value>
+    <value>NewRiver.Common.Data.DatabaseManagement%</value>
+    <value>NewRiver.Common.Data.DatabaseManagementParameter%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Persits.PDF.PdfManager (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Persits.PDF.PdfManager%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Configuration (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Configuration.AppSettingsReader%</value>
+    <value>System.Configuration.ApplicationSettingsBase%</value>
+    <value>System.Configuration.ConfigurationManager%</value>
+    <value>System.Configuration.SettingsBase%</value>
+    <value>System.Configuration.Update%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Diagnostics (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Diagnostics.StackFrame%</value>
+    <value>System.Diagnostics.Stopwatch%</value>
+    <value>System.Diagnostics.Trace%</value>
+    <value>System.Diagnostics.TraceListener%</value>
+    <value>System.Diagnostics.TraceListenerCollection%</value>
+    <value>System.Diagnostics.TraceSource%</value>
+    <value>System.Diagnostics.StackTrace%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Uri (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Uri%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Web.Mail (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Web.Mail.MailAttachment%</value>
+    <value>System.Web.Mail.MailMessage%</value>
+    <value>System.Web.Mail.SmtpMail%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Web.UI (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Web.UI.HtmlTextWriter%</value>
+    <value>System.Web.UI.WebControls.FileUpload%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net icc.BaseClasses (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>icc.BaseClasses.ExportPlan%</value>
+    <value>icc.BaseClasses.ImportPlan%</value>
+    <value>icc.BaseClasses.Lipper%</value>
+    <value>icc.BaseClasses.Plan%</value>
+    <value>icc.BaseClasses.PlanAllocation%</value>
+    <value>icc.BaseClasses.PlanContribution%</value>
+    <value>icc.BaseClasses.PlanDetail%</value>
+    <value>icc.BaseClasses.PlanEligibility%</value>
+    <value>icc.BaseClasses.PlanFF%</value>
+    <value>icc.BaseClasses.PlanFund%</value>
+    <value>icc.BaseClasses.PlanLoan%</value>
+    <value>icc.BaseClasses.PlanMatchTier2%</value>
+    <value>icc.BaseClasses.PlanMatchTier3%</value>
+    <value>icc.BaseClasses.PlanPDF%</value>
+    <value>icc.BaseClasses.PlanPaychex%</value>
+    <value>icc.BaseClasses.PlanPortFund%</value>
+    <value>icc.BaseClasses.PlanPortfolio%</value>
+    <value>icc.BaseClasses.PlanVestingSchedule%</value>
+    <value>icc.BaseClasses.PlanWithdrawal%</value>
+    <value>icc.BaseClasses.Upload%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Chilkat" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Chilkat (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Ionic" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Ionic (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.Practices.EnterpriseLibrary" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.Practices.EnterpriseLibrary.Data (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.Security.Application" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.Security.Application (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.SqlServer.Server" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.SqlServer.Server (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.ApplicationServices" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.ApplicationServices (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.Devices" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.Devices (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.FileIO" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.FileIO (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.FileSystem" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.FileSystem (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Microsoft.VisualBasic.MyServices" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Microsoft.VisualBasic.MyServices (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net NewRiver" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net NewRiver (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Persits.PDF.PdfManager" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Persits.PDF.PdfManager (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Configuration" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Configuration (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Diagnostics" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Diagnostics (GS)"/>
+   </caller-of>
+   <property name = "name" operator = "notlike" >
+    <value>%Trace%</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Uri" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Uri (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Web.Mail" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Web.Mail (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>1</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Web.UI" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Web.UI (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net icc.BaseClasses" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net icc.BaseClasses (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net Amib.Threading.SmartThreadPool" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+   </property>
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net Amib.Threading.SmartThreadPool (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>Amib.Threading.SmartThreadPool</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net Microsoft.Reporting.WebForms" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net Microsoft.Reporting.WebForms (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>Microsoft.Reporting.WebForms.Report</value>
+    <value>Microsoft.Reporting.WebForms.ServerReport</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net System.Net" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net System.Net (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net System.Net (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net System.Net (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net System.Net (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Net.HttpWebRequest</value>
+    <value>System.Net.HttpWebResponse</value>
+    <value>System.Net.WebRequest</value>
+    <value>System.Net.WebResponse</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net Persits.PDF.PdfDocument" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net Persits.PDF.PdfDocument (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net Persits.PDF.PdfDocument (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>Persits.PDF.PdfDocument</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net System.Threading" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net System.Threading (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net System.Threading (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net System.Threading (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net System.Threading (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>System.Threading.Monitor</value>
+    <value>System.Threading.Thread</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net System.Web.UI" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net System.Web.UI (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net System.Web.UI (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net System.Web.UI (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net System.Web.UI (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Web.UI.MasterPage%</value>
+    <value>System.Web.UI.Page%</value>
+    <value>System.Web.UI.HtmlTextWriter%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net System.Windows.Forms.Screen" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net System.Windows.Forms.Screen (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net System.Windows.Forms.Screen (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Windows.Forms.Screen%</value>
+    <value>System.Windows.Forms.Application%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net icc.BaseClasses.OrderForm" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net icc.BaseClasses.OrderForm (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>icc.BaseClasses.OrderForm</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net skmMenu.Menu" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of level = "20">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom Entry Point .Net skmMenu.Menu (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom Entry Point .Net skmMenu.Menu (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom Entry Point .Net skmMenu.Menu (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom Entry Point .Net skmMenu.Menu (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "eq" >
+    <value>skmMenu.Menu</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Drawing (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Drawing.Image%</value>
+    <value>System.Drawing.Graphics%</value>
+    <value>System.Drawing.Bitmap%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Drawing" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Drawing (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Linq" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Linq (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Linq (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Linq.Queryable%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.ServiceModel (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.ServiceModel.Security.UserNamePasswordClientCredential%</value>
+    <value>System.ServiceModel.EndpointAddress%</value>
+    <value>System.ServiceModel.Description.ClientCredentials%</value>
+    <value>System.ServiceModel.Channels.BindingParameterCollection%</value>
+    <value>System.ServiceModel.Channels.Binding%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.ServiceModel" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.ServiceModel (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Text (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>System.Text.ASCIIEncoding%</value>
+    <value>System.Text.Encoding%</value>
+    <value>System.Text.RegularExpressions.Capture%</value>
+    <value>System.Text.StringBuilder%</value>
+    <value>System.Text.UTF8Encoding%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Text" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Text (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Application Specific (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "notlike" >
+    <value>System.Console%</value>
+    <value>System.Reflection%</value>
+    <value>Amib.Threading.SmartThreadPool%</value>
+    <value>Microsoft.Reporting.WebForms%</value>
+    <value>System.Net%</value>
+    <value>System.Web.UI%</value>
+    <value>System.Threading%</value>
+    <value>Persits.PDF.PdfDocument%</value>
+    <value>skmMenu.Menu%</value>
+    <value>icc.BaseClasses.OrderForm%</value>
+    <value>System.Windows.Forms%</value>
+    <value>System.Xml%</value>
+    <value>System.Web.UI%</value>
+    <value>System.Web.Services%</value>
+    <value>System.Web.Mail%</value>
+    <value>System.Uri%</value>
+    <value>System.Text%</value>
+    <value>System.ServiceModel%</value>
+    <value>System.Security.Cryptography%</value>
+    <value>System.Net%</value>
+    <value>System.Messaging%</value>
+    <value>System.Linq%</value>
+    <value>System.IO%</value>
+    <value>System.Drawing%</value>
+    <value>System.DirectoryServices%</value>
+    <value>System.Diagnostics%</value>
+    <value>System.Data%</value>
+    <value>System.Console%</value>
+    <value>System.Configuration%</value>
+    <value>Persits.PDF.PdfManager%</value>
+    <value>NewRiver%</value>
+    <value>Microsoft.VisualBasic.MyServices%</value>
+    <value>Microsoft.VisualBasic.FileSystem%</value>
+    <value>Microsoft.VisualBasic.FileIO%</value>
+    <value>Microsoft.VisualBasic.Devices%</value>
+    <value>Microsoft.VisualBasic.ApplicationServices%</value>
+    <value>Microsoft.SqlServer.Server%</value>
+    <value>Microsoft.Security.Application%</value>
+    <value>Microsoft.Practices.EnterpriseLibrary.Data%</value>
+    <value>Microsoft.Office.Interop.Excel%</value>
+    <value>Ionic%</value>
+    <value>icc.BaseClasses%</value>
+    <value>Chilkat%</value>
+    <value>Aspose%</value>
+   </property>
+   <excluded-from set ="Custom End Point .Net Application Specific Part of the application (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Application Specific Part of the application (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set ="Custom End Point .Net Application Specific Potential End Point (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Application Specific Potential End Point (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set ="Custom End Point .Net Application Specific Potential End Point (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <caller-of>
+    <link-type>RelyOn</link-type>
+    <member-of set ="Custom End Point .Net Application Specific Potential End Point (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Application Specific Potential End Point (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Aspose" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Aspose (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net Aspose (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>Aspose.Words.Saving.SaveOptions.CreateSaveOptions%</value>
+    <value>Aspose.Words.Rendering.ShapeRenderer.Save%</value>
+    <value>Aspose.Words.MailMerging.MailMerge.Execute%</value>
+    <value>Aspose.Cells.GridWeb.Data.GridCells.DeleteColumn%</value>
+    <value>Aspose.Words.License.SetLicense%</value>
+    <value>Aspose.Words.MailMerging.MailMerge.ExecuteWithRegions%</value>
+    <value>Aspose.Words.Layout.LayoutEnumerator.Reset%</value>
+    <value>Aspose.Words.FileFormatUtil.ExtensionToSaveFormat%</value>
+    <value>Aspose.Words.Fields.Field.Update%</value>
+    <value>Aspose.Words.Fields.Field.Remove%</value>
+    <value>Aspose.Words.DocumentBuilder.Writeln%</value>
+    <value>Aspose.Words.DocumentBuilder.Write%</value>
+    <value>Aspose.Words.Document.Save%</value>
+    <value>Aspose.Words.Document.Clone%</value>
+    <value>Aspose.Words.Document.AppendDocument%</value>
+    <value>Aspose.Words.Document.Accept%</value>
+    <value>Aspose.Words.CompositeNode.RemoveAllChildren%</value>
+    <value>Aspose.Words.CompositeNode.InsertBefore%</value>
+    <value>Aspose.Words.CompositeNode.InsertAfter%</value>
+    <value>Aspose.Cells.GridWeb.MainWeb.SaveToExcelFile%</value>
+    <value>Aspose.Cells.GridWeb.MainWeb.ImportExcelFile%</value>
+    <value>Aspose.Cells.GridWeb.GridTableItemStyle.CopyFrom%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheets.SaveToExcelFile%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheets.Clear%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.UnfreezePanes%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.RemoveSubtotal%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.GroupRows%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.FreezePanel%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.DeleteBindRow%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.DataSourceControlUpdate%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.CreateSubtotal%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.CreateNewBindRow%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebWorksheet.CreateAutoGenratedColumns%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebCells.UnMerge%</value>
+    <value>Aspose.Cells.GridWeb.Data.WebCells.Merge%</value>
+    <value>Aspose.Cells.GridWeb.Data.GridCells.Sort%</value>
+    <value>Aspose.Cells.GridWeb.Data.GridCells.Merge%</value>
+    <value>Aspose.Cells.GridWeb.Data.GridCells.InsertRow%</value>
+    <value>Aspose.Cells.GridWeb.Data.GridCells.InsertColumn%</value>
+    <value>Aspose.Cells.GridWeb.Data.GridCells.Export%</value>
+    <value>Aspose.Cells.GridWeb.Data.GridCells.DeleteRow%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net PdfSharp (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>PdfSharp.Pdf.PdfDocument.Save%</value>
+    <value>PdfSharp.Pdf.PdfDocument.AddPage%</value>
+    <value>PdfSharp.Pdf.IO.PdfReader.Open%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net PdfSharp" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net PdfSharp (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net GalaSoft.MvvmLight (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodExternal</value>
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+   </property>
+   <property name = "fullname" operator = "like" >
+    <value>GalaSoft.MvvmLight.Messaging.Messenger.Reset</value>
+    <value>GalaSoft.MvvmLight.Messaging.IMessenger.Unregister</value>
+    <value>GalaSoft.MvvmLight.Messaging%</value>
+    <value>GalaSoft.MvvmLight.Messaging.Command%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net GalaSoft.MvvmLight" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net GalaSoft.MvvmLight (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>1</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Data.Entity.DbContext (GS)" type = "Generic sets">
+  <selection-criteria subobjects="yes" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+    <value>CAST_DotNet_MethodExternal</value>
+   </property>
+   <property name = "name" operator = "eq" >
+    <value>DbContext</value>
+    <value>IDbContext</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net Caller of System.Data.Entity.DbContext (GS)" type = "Generic sets">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+    <value>CAST_DotNet_MethodExternal</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net System.Data.Entity.DbContext (GS)"/>
+   </caller-of>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+    <value>CAST_DotNet_MethodExternal</value>
+   </property>
+   <caller-of level = "10">
+    <link-type>Inherit</link-type>
+    <member-of set ="Custom End Point .Net System.Data.Entity.DbContext (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name = "Custom End Point .Net System.Data.Entity.DbContext" type = "Transaction end points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_InterfaceExternal</value>
+    <value>CAST_DotNet_InterfaceCSharp</value>
+    <value>CAST_DotNet_InterfaceVB</value>
+    <value>CAST_DotNet_ClassCSharp</value>
+    <value>CAST_DotNet_ClassExternal</value>
+    <value>CAST_DotNet_ClassVB</value>
+    <value>CAST_DotNet_MethodVB</value>
+    <value>CAST_DotNet_MethodCSharp</value>
+    <value>CAST_DotNet_MethodExternal</value>
+   </property>
+   <caller-of>
+    <link-type>Access</link-type>
+    <member-of set ="Custom End Point .Net Caller of System.Data.Entity.DbContext (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+</association>
+<association>
+ <set name = "Default Entry Point .Net" type = "Transaction entry points">
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>VB_USER_DOC</value>
+    <value>VB_USER_CONTROL</value>
+    <value>VB_PROPERTY_PAGE</value>
+    <value>VB_MDI_FORM</value>
+    <value>VB_DESIGNER</value>
+    <value>VB_FORM</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassVBForm</value>
+    <value>CAST_DotNet_ClassVBUserControl</value>
+    <value>CAST_DotNet_ClassVBCustomControl</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassCSharpForm</value>
+    <value>CAST_DotNet_ClassCSharpCustomControl</value>
+    <value>CAST_DotNet_ClassCSharpUserControl</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_AscxFile</value>
+    <value>CAST_DotNet_AsmxFile</value>
+    <value>CAST_DotNet_AspxFile</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria subobjects="no" externalobjects="yes">
+   <property name = "type" operator = "eq" >
+    <value>CAST_DotNet_ClassExternalForm</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes version="1.0.0.0" encoding="UTF-8">
+</prefixes>
+<ignoredtables version="1.0.0.0" encoding="UTF-8">
+  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
+  <value description="Template data entities">^(.*template.*)$</value>
+  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
+  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
+  <value description="Status entities">^(.+status)$</value>
+  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
+</ignoredtables>
+</setup>

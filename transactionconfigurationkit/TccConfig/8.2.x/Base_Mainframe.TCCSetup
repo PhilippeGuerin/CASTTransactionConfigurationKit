@@ -1,7 +1,7 @@
 <setup version="1.0.0.0" encoding="UTF-8">
-<associations version="1.0.0.0" encoding="UTF-8" date="Fri Aug 11 20:28:30 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<associations version="1.0.0.0" encoding="UTF-8" date="Mon Oct 02 14:34:17 EDT 2017" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
 <association>
- <set name = "Custom Entry Point Cobol Exposed programs" type = "Transaction entry points">
+ <set name = "Standard Entry Point - Cobol - Exposed programs" type = "Transaction entry points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_COBOL_SavedProgram</value>
@@ -13,7 +13,7 @@
  </set>
 </association>
 <association>
- <set name = "Custom End Point JCL Cobol - Unknown" type = "Transaction end points">
+ <set name = "Standard End Point - JCL Cobol - Unknown" type = "Transaction end points">
   <selection-criteria subobjects="yes" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_COBOL_ProgramPrototype</value>
@@ -22,7 +22,7 @@
    <property name = "fullname" operator = "like" >
     <value>%Unknown%</value>
    </property>
-   <member-of set ="Custom End Point Cobol - unknown Potential Utilities  (GS)"/>
+   <member-of set ="Standard End Point - Cobol - unknown Potential Utilities  (GS)"/>
   </selection-criteria>
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
@@ -32,7 +32,7 @@
    <property name = "fullname" operator = "like" >
     <value>%Unknown%</value>
    </property>
-   <member-of set ="Custom End Point Cobol - unknown Potential Other Applications (GS)"/>
+   <member-of set ="Standard End Point - Cobol - unknown Potential Other Applications (GS)"/>
   </selection-criteria>
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "fullname" operator = "like" >
@@ -42,7 +42,7 @@
     <value>CAST_COBOL_ProgramPrototype</value>
     <value>CAST_COBOL_SavedProgram</value>
    </property>
-   <member-of set ="Custom End Point Cobol - valid utilities (GS)"/>
+   <member-of set ="Standard End Point - Cobol - valid utilities (GS)"/>
   </selection-criteria>
  </set>
  <attribute name="Contribute">
@@ -53,7 +53,7 @@
  </attribute>
 </association>
 <association>
- <set name = "Custom End Point Cobol - unknown Potential Utilities  (GS)" type = "Generic sets">
+ <set name = "Standard End Point - Cobol - unknown Potential Utilities  (GS)" type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_COBOL_SavedProgram</value>
@@ -82,55 +82,55 @@
     <value>*%</value>
     <value>%$%</value>
    </property>
-   <excluded-from set ="Custom End Point Cobol - known utilities (GS)"/>
-   <excluded-from set ="Custom End Point Cobol - valid utilities (GS)"/>
+   <excluded-from set ="Standard End Point - Cobol - known utilities (GS)"/>
+   <excluded-from set ="Standard End Point - Cobol - valid utilities (GS)"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name = "Custom Entry Point JCL Procedure" type = "Transaction entry points">
+ <set name = "Standard Entry Point - JCL - Procedure" type = "Transaction entry points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_JCL_CatalogedProcedure</value>
    </property>
-   <excluded-from set ="Custom Entry Point JCL Proc (GS)"/>
+   <excluded-from set ="Standard Entry Point - JCL - Proc (GS)"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name = "Custom Entry Point JCL Step of JCL Jobs(GS)" type = "Generic sets">
+ <set name = "Standard Entry Point - JCL - Step of JCL Jobs(GS)" type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_JCL_Step</value>
    </property>
    <caller-of>
     <link-type>BelongsTo</link-type>
-    <member-of set ="Custom Entry Point JCL Jobs (GS)"/>
+    <member-of set ="Standard Entry Point - JCL - Jobs (GS)"/>
    </caller-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name = "Custom Entry Point JCL Proc (GS)" type = "Generic sets">
+ <set name = "Standard Entry Point - JCL - Proc (GS)" type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_JCL_CatalogedProcedure</value>
    </property>
    <callee-of>
     <link-type>Call</link-type>
-    <member-of set ="Custom Entry Point JCL Step of JCL Jobs(GS)"/>
+    <member-of set ="Standard Entry Point - JCL - Step of JCL Jobs(GS)"/>
    </callee-of>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name = "Custom End Point JCL Cobol - Unknown utilities" type = "Transaction end points">
+ <set name = "Standard End Point - JCL Cobol - Unknown utilities" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>JCL_PROGRAM</value>
     <value>CAST_COBOL_UtilityProgram</value>
    </property>
-   <excluded-from set ="Custom End Point Cobol - unknown utilities (GS) "/>
+   <excluded-from set ="Standard End Point - Cobol - unknown utilities (GS) "/>
   </selection-criteria>
  </set>
  <attribute name="Contribute">
@@ -141,7 +141,7 @@
  </attribute>
 </association>
 <association>
- <set name = "Custom End Point Cobol - unknown utilities (GS) " type = "Generic sets">
+ <set name = "Standard End Point - Cobol - unknown utilities (GS) " type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "name" operator = "like" >
     <value>IEFBR%</value>
@@ -157,7 +157,7 @@
  </set>
 </association>
 <association>
- <set name = "Custom End Point Cobol - unknown Potential Other Applications (GS)" type = "Generic sets">
+ <set name = "Standard End Point - Cobol - unknown Potential Other Applications (GS)" type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_COBOL_SavedProgram</value>
@@ -166,12 +166,12 @@
    <property name = "fullname" operator = "like" >
     <value>%Unknown%</value>
    </property>
-   <excluded-from set ="Custom End Point Cobol - unknown Potential Utilities  (GS)"/>
+   <excluded-from set ="Standard End Point - Cobol - unknown Potential Utilities  (GS)"/>
   </selection-criteria>
  </set>
 </association>
 <association>
- <set name = "Custom End Point Cobol - known utilities (GS)" type = "Generic sets">
+ <set name = "Standard End Point - Cobol - known utilities (GS)" type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_COBOL_SavedProgram</value>
@@ -212,7 +212,7 @@
  </set>
 </association>
 <association>
- <set name = "Custom End Point Cobol - valid utilities (GS)" type = "Generic sets">
+ <set name = "Standard End Point - Cobol - valid utilities (GS)" type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_COBOL_SavedProgram</value>
@@ -230,7 +230,7 @@
  </set>
 </association>
 <association>
- <set name = "Custom Entry Point JCL Jobs (GS)" type = "Generic sets">
+ <set name = "Standard Entry Point - JCL - Jobs (GS)" type = "Generic sets">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_JCL_CatalogedJobPrototype</value>
@@ -240,7 +240,7 @@
  </set>
 </association>
 <association>
- <set name = "Default Entry Point Mainframe" type = "Transaction entry points">
+ <set name = "Standard Entry Point - Mainframe - Default" type = "Transaction entry points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_JCL_CatalogedJob</value>
@@ -256,7 +256,7 @@
  </set>
 </association>
 <association>
- <set name = "Default End Point CICS - Semi persistant Data - Not delivered" type = "Transaction end points">
+ <set name = "Standard End Point - CICS - Semi persistant Data - Not delivered" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_CICS_TDQueuePrototype</value>
@@ -271,7 +271,7 @@
  </attribute>
 </association>
 <association>
- <set name = "Default End Point CICS BMS File" type = "Transaction end points">
+ <set name = "Standard End Point - CICS - BMS File" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CICS_BMS</value>
@@ -286,7 +286,7 @@
  </attribute>
 </association>
 <association>
- <set name = "Default End Point CICS CICS Temporary data storage" type = "Transaction end points">
+ <set name = "Standard End Point - CICS - CICS Temporary data storage" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CICS_TSMODEL</value>
@@ -301,7 +301,7 @@
  </attribute>
 </association>
 <association>
- <set name = "Default End Point CICS/Cobol - Semi persistant Data - Not delivered" type = "Transaction end points">
+ <set name = "Standard End Point - CICS/Cobol - Semi persistant Data - Not delivered" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>COBOL_CICS_QUEUE</value>
@@ -316,7 +316,7 @@
  </attribute>
 </association>
 <association>
- <set name = "Default  End Point Cobol Data Link - Temporary Data Storage" type = "Transaction end points">
+ <set name = "Standard End Point - Cobol - Data Link - Temporary Data Storage" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_COBOL_SortDescription</value>
@@ -331,7 +331,7 @@
  </attribute>
 </association>
 <association>
- <set name = "Default End Point Cobol/ CICS Transaction not delivered" type = "Transaction end points">
+ <set name = "Standard End Point - Cobol/ CICS - Transaction not delivered" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_CICS_TransactionPrototype</value>
@@ -346,7 +346,7 @@
  </attribute>
 </association>
 <association>
- <set name = "Default End Point GSAM - Not delivered" type = "Transaction end points">
+ <set name = "Standard End Point - IMS - GSAM - Not delivered" type = "Transaction end points">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_IMS_AnalyzedFile</value>
@@ -361,59 +361,53 @@
  </attribute>
 </association>
 <association>
- <set name = "Custom Data Function GSAM" type = "Data functions">
+ <set name = "Standard Data Entity - GSAM" type = "Data functions">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CAST_IMS_FilePrototype</value>
    </property>
   </selection-criteria>
  </set>
- <attribute name="RET">
-  <value>1</value>
- </attribute>
  <attribute name="DET">
   <value>3</value>
  </attribute>
+ <attribute name="RET">
+  <value>1</value>
+ </attribute>
 </association>
 <association>
- <set name = "Default Mainframe" type = "Data functions">
+ <set name = "Standard Data Entity - Cobol" type = "Data functions">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>COBOL_CICS_FILE</value>
    </property>
   </selection-criteria>
  </set>
- <attribute name="RET">
-  <value>1</value>
- </attribute>
  <attribute name="DET">
   <value>3</value>
  </attribute>
+ <attribute name="RET">
+  <value>1</value>
+ </attribute>
 </association>
 <association>
- <set name = "Default CICS" type = "Data functions">
+ <set name = "Standard Data Entity - CICS" type = "Data functions">
   <selection-criteria subobjects="no" externalobjects="yes">
    <property name = "type" operator = "eq" >
     <value>CICS_TDQUEUE</value>
    </property>
   </selection-criteria>
  </set>
- <attribute name="RET">
-  <value>1</value>
- </attribute>
  <attribute name="DET">
   <value>3</value>
+ </attribute>
+ <attribute name="RET">
+  <value>1</value>
  </attribute>
 </association>
 </associations>
 <prefixes version="1.0.0.0" encoding="UTF-8">
 </prefixes>
 <ignoredtables version="1.0.0.0" encoding="UTF-8">
-  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
-  <value description="Template data entities">^(.*template.*)$</value>
-  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
-  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
-  <value description="Status entities">^(.+status)$</value>
-  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
 </ignoredtables>
 </setup>

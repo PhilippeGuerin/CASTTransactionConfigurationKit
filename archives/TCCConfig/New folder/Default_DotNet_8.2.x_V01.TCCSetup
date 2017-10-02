@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<setup encoding="UTF-8" version="1.0.0.0">
+<associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="Tue May 16 11:57:06 EDT 2017" encoding="UTF-8" version="1.0.0.0" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name="Default Entry Point .Net" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>VB_USER_DOC</value>
+    <value>VB_USER_CONTROL</value>
+    <value>VB_PROPERTY_PAGE</value>
+    <value>VB_MDI_FORM</value>
+    <value>VB_DESIGNER</value>
+    <value>VB_FORM</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_DotNet_ClassVBForm</value>
+    <value>CAST_DotNet_ClassVBUserControl</value>
+    <value>CAST_DotNet_ClassVBCustomControl</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_DotNet_ClassCSharpForm</value>
+    <value>CAST_DotNet_ClassCSharpCustomControl</value>
+    <value>CAST_DotNet_ClassCSharpUserControl</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_DotNet_AscxFile</value>
+    <value>CAST_DotNet_AsmxFile</value>
+    <value>CAST_DotNet_AspxFile</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_DotNet_ClassExternalForm</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes encoding="UTF-8" version="1.0.0.0">
+</prefixes>
+<ignoredtables encoding="UTF-8" version="1.0.0.0">
+</ignoredtables>
+</setup>

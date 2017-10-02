@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<setup encoding="UTF-8" version="1.0.0.0">
+<associations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="Mon Sep 11 15:32:23 EDT 2017" encoding="UTF-8" version="1.0.0.0" xsi:noNamespaceSchemaLocation="CAST-Sets.xsd">
+<association>
+ <set name="Standard Exclusion - DB2 - System Tables" type="Excluded items">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="fullname" operator="like">
+    <value>%.SYSIBM.%</value>
+   </property>
+   <property name="type" operator="eq">
+    <value>ALIAS</value>
+    <value>DB2ANALYZE</value>
+    <value>UDBDATABASE</value>
+    <value>UDBDISTINCTUDT</value>
+    <value>UDBINSTANCE</value>
+    <value>NICKNAME</value>
+    <value>UDBSCHEMA</value>
+    <value>STRUCTUDT</value>
+    <value>DB2_DYNAMIC_PROJECT</value>
+    <value>SYSTEM</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - Web - External URL" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="type" operator="eq">
+    <value>CAST_Web_ExternalUrlDirectory</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>URL</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Web_URLDirectory</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>0</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard Entry Point - JAXRS - java.ws.rs REST (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Java_AnnotationType</value>
+   </property>
+   <property name="fullname" operator="eq">
+    <value>javax.ws.rs.path</value>
+    <value>javax.ws.rs.get</value>
+    <value>javax.ws.rs.post</value>
+    <value>javax.ws.rs.delete</value>
+    <value>javax.ws.rs.put</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - JAXRS" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_JAXRS_GetOperation</value>
+    <value>CAST_JAXRS_DeleteOperation</value>
+    <value>CAST_JAXRS_PostOperation</value>
+    <value>CAST_JAXRS_PutOperation</value>
+   </property>
+   <excluded-from set="Standard Entry Point - JAXRS - java.ws.rs REST Called APIs (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - AngularJS" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_AngularJS_Application</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - HTML5" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_HTML5_ASP_Content</value>
+    <value>CAST_HTML5_ASPX_Content</value>
+    <value>CAST_HTML5_HTC_Content</value>
+    <value>CAST_HTML5_JSP_Content</value>
+    <value>CAST_HTML5_SourceCode</value>
+    <value>CAST_HTML5_CSHTML_Content</value>
+   </property>
+   <property name="name" operator="notlike">
+    <value>%error%</value>
+    <value>%header%</value>
+    <value>%footer%</value>
+    <value>%index%</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - IOS" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_ObjectiveC_UITextField</value>
+    <value>CAST_ObjectiveC_UIControl</value>
+    <value>CAST_ObjectiveC_UIButton</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - Web" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Web_File</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - SAPUI5" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_SAPUI5_XMLView</value>
+    <value>CAST_SAPUI5_JSONView</value>
+    <value>CAST_SAPUI5_HTMLView</value>
+    <value>CAST_SAPUI5_JSView</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - Python" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Python_Script</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - Oracle Forms / Oracle Report" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Forms_Module</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>FORMS_RDF_MODULE</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - JQuery" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_JQuery_Selector</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Exclusion - Oracle - System Tables" type="Excluded items">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="name" operator="eq">
+    <value>PLAN_TABLE</value>
+    <value>ALL_ARGUMENTS</value>
+    <value>ALL_CATALOG</value>
+    <value>ALL_COL_COMMENTS</value>
+    <value>ALL_CONSTRAINTS</value>
+    <value>ALL_CONS_COLUMNS</value>
+    <value>ALL_DB_LINKS</value>
+    <value>ALL_ERRORS</value>
+    <value>ALL_INDEXES</value>
+    <value>ALL_IND_COLUMNS</value>
+    <value>ALL_LOBS</value>
+    <value>ALL_OBJECTS</value>
+    <value>ALL_OBJECT_TABLES</value>
+    <value>ALL_SEQUENCES</value>
+    <value>ALL_SNAPSHOTS</value>
+    <value>ALL_SOURCE</value>
+    <value>ALL_SYNONYMS</value>
+    <value>ALL_TABLES</value>
+    <value>ALL_TAB_COLUMNS</value>
+    <value>ALL_TAB_COL_STATISTICS</value>
+    <value>ALL_TAB_COMMENTS</value>
+    <value>ALL_TRIGGERS</value>
+    <value>ALL_TRIGGER_COLS</value>
+    <value>ALL_TYPES</value>
+    <value>ALL_UPDATABLE_COLUMNS</value>
+    <value>ALL_USERS</value>
+    <value>ALL_VIEWS</value>
+    <value>DATABASE_COMPATIBLE_LEVEL</value>
+    <value>DBA_DB_LINKS</value>
+    <value>DBA_ERRORS</value>
+    <value>DBA_OBJECTS</value>
+    <value>DBA_ROLES</value>
+    <value>DBA_ROLE_PRIVS</value>
+    <value>DBA_SOURCE</value>
+    <value>DBA_TABLESPACES</value>
+    <value>DBA_TAB_PRIVS</value>
+    <value>DBA_TRIGGERS</value>
+    <value>DBA_TS_QUOTAS</value>
+    <value>DBA_USERS</value>
+    <value>DBA_VIEWS</value>
+    <value>DICTIONARY</value>
+    <value>DICT_COLUMNS</value>
+    <value>GLOBAL_NAME</value>
+    <value>NLS_DATABASE_PARAMETERS</value>
+    <value>NLS_INSTANCE_PARAMETERS</value>
+    <value>NLS_SESSION_PARAMETERS</value>
+    <value>PRODUCT_COMPONENT_VERSION</value>
+    <value>ROLE_TAB_PRIVS</value>
+    <value>SESSION_PRIVS</value>
+    <value>SESSION_ROLES</value>
+    <value>SYSTEM_PRIVILEGE_MAP</value>
+    <value>TABLE_PRIVILEGES</value>
+    <value>TABLE_PRIVILEGE_MAP</value>
+   </property>
+   <property name="type" operator="eq">
+    <value>SQLScriptTable</value>
+    <value>CAST_Oracle_RelationalTable</value>
+   </property>
+  </selection-criteria>
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="name" operator="like">
+    <value>%RPUD$%</value>
+    <value>%MLOG$%</value>
+   </property>
+   <property name="type" operator="eq">
+    <value>SQLScriptTable</value>
+    <value>CAST_Oracle_RelationalTable</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Exclusion - Oracle - Quest" type="Excluded items">
+  <selection-criteria externalobjects="yes" subobjects="yes">
+   <property name="name" operator="eq">
+    <value>TOAD_PLAN_TABLE</value>
+   </property>
+   <property name="type" operator="eq">
+    <value>SQLScriptTable</value>
+    <value>CAST_Oracle_RelationalTable</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - HTML5" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_HTML5_DeleteHttpRequestService</value>
+    <value>CAST_HTML5_DeleteXMLHttpRequestService</value>
+    <value>CAST_HTML5_GetHttpRequestService</value>
+    <value>CAST_HTML5_GetXMLHttpRequestService</value>
+    <value>CAST_HTML5_PostHttpRequestService</value>
+    <value>CAST_HTML5_PostXMLHttpRequestService</value>
+    <value>CAST_HTML5_PutHttpRequestService</value>
+    <value>CAST_HTML5_UpdateXMLHttpRequestService</value>
+   </property>
+   <excluded-from set="Standard End Point - HTML5 (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard Entry Point - Spring MVC" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_SpringMVC_PostOperation</value>
+    <value>CAST_SpringMVC_PutOperation</value>
+    <value>CAST_SpringMVC_GetOperation</value>
+    <value>CAST_SpringMVC_DeleteOperation</value>
+    <value>CAST_SpringMVC_AnyOperation</value>
+   </property>
+   <excluded-from set="Standard Entry Point - Spring MVC - Called Operations (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - Spring.MVC (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="name" operator="notlike">
+    <value>Everybody</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - Spring MVC - Called Operations (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_SpringMVC_PostOperation</value>
+    <value>CAST_SpringMVC_PutOperation</value>
+    <value>CAST_SpringMVC_GetOperation</value>
+    <value>CAST_SpringMVC_DeleteOperation</value>
+    <value>CAST_SpringMVC_AnyOperation</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="Standard Entry Point - Spring.MVC (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="All Objects (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="name" operator="notlike">
+    <value>Everybody</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - JAXRS - java.ws.rs REST Called APIs (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_JAXRS_GetOperation</value>
+    <value>CAST_JAXRS_DeleteOperation</value>
+    <value>CAST_JAXRS_PostOperation</value>
+    <value>CAST_JAXRS_PutOperation</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - AngularJS" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_AngularJS_DeleteHttpService</value>
+    <value>CAST_AngularJS_DeleteResourceService</value>
+    <value>CAST_AngularJS_GetHttpService</value>
+    <value>CAST_AngularJS_GetResourceService</value>
+    <value>CAST_AngularJS_PostHttpService</value>
+    <value>CAST_AngularJS_PostResourceService</value>
+    <value>CAST_AngularJS_PutHttpService</value>
+    <value>CAST_AngularJS_PutResourceService</value>
+   </property>
+   <excluded-from set="Standard End Point - AngularJS (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard End Point - AngularJS (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_AngularJS_DeleteHttpService</value>
+    <value>CAST_AngularJS_DeleteResourceService</value>
+    <value>CAST_AngularJS_GetHttpService</value>
+    <value>CAST_AngularJS_GetResourceService</value>
+    <value>CAST_AngularJS_PostHttpService</value>
+    <value>CAST_AngularJS_PostResourceService</value>
+    <value>CAST_AngularJS_PutHttpService</value>
+    <value>CAST_AngularJS_PutResourceService</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - IOS" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_ObjectiveC_DeleteResourceService</value>
+    <value>CAST_ObjectiveC_GetResourceService</value>
+    <value>CAST_ObjectiveC_PostResourceService</value>
+    <value>CAST_ObjectiveC_PutResourceService</value>
+   </property>
+   <excluded-from set="Standard End Point - IOS (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard End Point - IOS (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_ObjectiveC_DeleteResourceService</value>
+    <value>CAST_ObjectiveC_GetResourceService</value>
+    <value>CAST_ObjectiveC_PostResourceService</value>
+    <value>CAST_ObjectiveC_PutResourceService</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - NodeJS" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_NodeJS_DeleteHttpRequestService</value>
+    <value>CAST_NodeJS_GetHttpRequestService</value>
+    <value>CAST_NodeJS_PostHttpRequestService</value>
+    <value>CAST_NodeJS_PutHttpRequestService</value>
+    <value>CAST_NodeJS_Unknown_Database_Table</value>
+    <value>CAST_NodeJS_Mongoose_Model</value>
+   </property>
+   <excluded-from set="Standard End Point - NodeJS (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard End Point - NodeJS (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_NodeJS_DeleteHttpRequestService</value>
+    <value>CAST_NodeJS_GetHttpRequestService</value>
+    <value>CAST_NodeJS_PostHttpRequestService</value>
+    <value>CAST_NodeJS_PutHttpRequestService</value>
+    <value>CAST_NodeJS_Unknown_Database_Table</value>
+    <value>CAST_NodeJS_Mongoose_Model</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - NodeJS" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_NodeJS_DeleteOperation</value>
+    <value>CAST_NodeJS_GetOperation</value>
+    <value>CAST_NodeJS_PostOperation</value>
+    <value>CAST_NodeJS_PutOperation</value>
+    <value>CAST_NodeJS_UseOperation</value>
+    <value>CAST_NodeJS_Service</value>
+   </property>
+   <excluded-from set="Standard Entry Point - NodeJS (GS)"/>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - NodeJS (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_NodeJS_DeleteOperation</value>
+    <value>CAST_NodeJS_GetOperation</value>
+    <value>CAST_NodeJS_PostOperation</value>
+    <value>CAST_NodeJS_PutOperation</value>
+    <value>CAST_NodeJS_UseOperation</value>
+    <value>CAST_NodeJS_Service</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - C/C++" type="Transaction entry points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Cpp_FreeFunction</value>
+    <value>CAST_Cpp_MemberFunction</value>
+    <value>C_FUNCTION</value>
+   </property>
+   <excluded-from set="Standard Entry Point - C/C++ (GS)"/>
+   <property name="name" operator="eq">
+    <value>main</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard Entry Point - C/C++ (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Cpp_FreeFunction</value>
+    <value>CAST_Cpp_MemberFunction</value>
+    <value>C_FUNCTION</value>
+   </property>
+   <property name="name" operator="eq">
+    <value>main</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - C/C++" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Cpp_HeaderFile</value>
+    <value>CAST_Cpp_FreeFunction</value>
+    <value>C_FUNCTION</value>
+   </property>
+   <property name="name" operator="like">
+    <value>%write%</value>
+    <value>%read%</value>
+    <value>%stream%</value>
+    <value>%close%</value>
+   </property>
+   <excluded-from set="Standard End Point - C/C++ (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard End Point - C/C++ (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Cpp_HeaderFile</value>
+    <value>CAST_Cpp_FreeFunction</value>
+    <value>C_FUNCTION</value>
+   </property>
+   <property name="name" operator="like">
+    <value>%write%</value>
+    <value>%read%</value>
+    <value>%stream%</value>
+    <value>%close%</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - JQuery" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_JQuery_DeleteResourceService</value>
+    <value>CAST_JQuery_GetResourceService</value>
+    <value>CAST_JQuery_PostResourceService</value>
+    <value>CAST_JQuery_PutResourceService</value>
+   </property>
+   <excluded-from set="Standard End Point - JQuery (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard End Point - JQuery (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_JQuery_DeleteResourceService</value>
+    <value>CAST_JQuery_GetResourceService</value>
+    <value>CAST_JQuery_PostResourceService</value>
+    <value>CAST_JQuery_PutResourceService</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard DB Objects (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>Storage_Model_Table</value>
+    <value>CAST_ASETSQL_RelationalTable</value>
+    <value>CAST_SQL_UnresolvedTableSource</value>
+    <value>SQLScriptTable</value>
+    <value>SIEBEL_T_WAREHOUSE</value>
+    <value>SIEBEL_T_VIRTUAL_TABLE</value>
+    <value>SIEBEL_T_UNKNOWN_TYPE</value>
+    <value>SIEBEL_T_REPOSITORY</value>
+    <value>SIEBEL_T_INTERFACE</value>
+    <value>SIEBEL_T_EXTERNAL_VIEW</value>
+    <value>SIEBEL_T_EXTERNAL</value>
+    <value>SIEBEL_T_EXTENSION_SIEBEL</value>
+    <value>SIEBEL_T_EXTENSION</value>
+    <value>SIEBEL_T_DICTIONARY</value>
+    <value>SIEBEL_T_DATA_PUBLIC</value>
+    <value>SIEBEL_T_DATA_PRIVATE</value>
+    <value>SIEBEL_T_DATA_INTERSECTION</value>
+    <value>SQL_TABLE</value>
+    <value>CAST_TSQL_UDT_TABLE</value>
+    <value>ProgressTempTable</value>
+    <value>ProgressWorkTable</value>
+    <value>ProgressDatabaseTable</value>
+    <value>PLIDB2Table</value>
+    <value>PLCDB2Table</value>
+    <value>PSoft_RecordTable</value>
+    <value>CAST_Oracle_RelationalTable</value>
+    <value>CAST_Oracle_ObjectTable</value>
+    <value>CAST_MSTSQL_RelationalTable</value>
+    <value>IngresTable</value>
+    <value>EGLDataTable</value>
+    <value>CAST_NodeJS_Unknown_Database_Table</value>
+    <value>DB400Table</value>
+    <value>CAST_DB2ZOS_RelationalTable</value>
+    <value>DataStageUserTable</value>
+    <value>DataStageTargetTABLE</value>
+    <value>CAST_ABAP_SAPUnresolvedTable</value>
+    <value>SAPTable</value>
+    <value>CAST_SAPUI5_HTMLView</value>
+    <value>SIEBEL_SCREEN_VIEW</value>
+    <value>DataviewDeclaration</value>
+    <value>SIEBEL_VIEW_TASKGROUP</value>
+    <value>IdealDataView</value>
+    <value>CAST_SAPUI5_JSView</value>
+    <value>DataStageCContainerView</value>
+    <value>SIEBEL_FIND_VIEW</value>
+    <value>CAST_Oracle_MaterializedView</value>
+    <value>SIEBEL_FIND_PICKVIEW</value>
+    <value>RemedyView</value>
+    <value>PSoft_RecordView</value>
+    <value>SAPView</value>
+    <value>CAST_DB2ZOS_View</value>
+    <value>CAST_ASETSQL_View</value>
+    <value>DB400View</value>
+    <value>CAST_MSTSQL_View</value>
+    <value>SIEBEL_VIEW_REPORT</value>
+    <value>CAST_Oracle_View</value>
+    <value>SIEBEL_WEB_TMPL_VIEW_TMPL</value>
+    <value>SQLScriptViewSynonym</value>
+    <value>VIEW</value>
+    <value>CAST_SAPUI5_XMLView</value>
+    <value>SQLScriptView</value>
+    <value>SIEBEL_VIEW_LAYOUT</value>
+    <value>CAST_SAP_R3WDYN_View</value>
+    <value>CAST_SAP_R3WDYN_InterfaceView</value>
+    <value>CAST_SAPUI5_JSONView</value>
+    <value>NaturalView</value>
+    <value>SIEBEL_VIEW_WEB_TMPL</value>
+    <value>SIEBEL_VIEW</value>
+    <value>AdabasView</value>
+    <value>CognosView</value>
+   </property>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - Oracle Report - Query" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>FORMS_RDF_EXT_FILE_QUERY</value>
+    <value>FORMS_RDF_NON_ORADB_QUERY</value>
+    <value>FORMS_RDF_QUERY</value>
+    <value>FORMS_RDF_REF_CURSOR_QUERY</value>
+    <value>FORMS_RDF_UNKNOWN_QUERY</value>
+   </property>
+   <excluded-from set="Standard End Point - Oracle Report - Query CallerDB (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard End Point - Oracle Report - Query CallerDB (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>FORMS_RDF_EXT_FILE_QUERY</value>
+    <value>FORMS_RDF_NON_ORADB_QUERY</value>
+    <value>FORMS_RDF_QUERY</value>
+    <value>FORMS_RDF_REF_CURSOR_QUERY</value>
+    <value>FORMS_RDF_UNKNOWN_QUERY</value>
+   </property>
+   <caller-of>
+    <link-type>Use</link-type>
+    <member-of set="Standard DB Objects (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - Python - Query" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_SQL_NamedQuery</value>
+   </property>
+   <excluded-from set="Standard End Point - Python - Query CallerDB (GS)"/>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard End Point - Python - Query CallerDB (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>HIB_HQL_NAMED_QUERY</value>
+    <value>HIB_SQL_NAMED_QUERY</value>
+    <value>JPA_NAMED_NATIVE_QUERY</value>
+    <value>JPA_NAMED_QUERY</value>
+    <value>CAST_SQL_NamedQuery</value>
+   </property>
+   <caller-of>
+    <link-type>Use</link-type>
+    <member-of set="Standard DB Objects (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - Python - Read / Write" type="Transaction end points">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Python_Method</value>
+   </property>
+   <excluded-from set="Standard End Point - Python - Read / Write API (GS)"/>
+   <property name="name" operator="like">
+    <value>%write%</value>
+    <value>%read%</value>
+    <value>%close%</value>
+    <value>%stream%</value>
+   </property>
+  </selection-criteria>
+ </set>
+ <attribute name="DET">
+  <value>3</value>
+ </attribute>
+ <attribute name="Contribute">
+  <value>0</value>
+ </attribute>
+</association>
+<association>
+ <set name="Standard End Point - Python - Read / Write API (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_Python_Method</value>
+   </property>
+   <caller-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </caller-of>
+  </selection-criteria>
+ </set>
+</association>
+<association>
+ <set name="Standard End Point - HTML5 (GS)" type="Generic sets">
+  <selection-criteria externalobjects="yes" subobjects="no">
+   <property name="type" operator="eq">
+    <value>CAST_HTML5_DeleteHttpRequestService</value>
+    <value>CAST_HTML5_DeleteXMLHttpRequestService</value>
+    <value>CAST_HTML5_GetHttpRequestService</value>
+    <value>CAST_HTML5_GetXMLHttpRequestService</value>
+    <value>CAST_HTML5_PostHttpRequestService</value>
+    <value>CAST_HTML5_PostXMLHttpRequestService</value>
+    <value>CAST_HTML5_PutHttpRequestService</value>
+    <value>CAST_HTML5_UpdateXMLHttpRequestService</value>
+   </property>
+   <callee-of>
+    <link-type>Call</link-type>
+    <member-of set="All Objects (GS)"/>
+   </callee-of>
+  </selection-criteria>
+ </set>
+</association>
+</associations>
+<prefixes encoding="UTF-8" version="1.0.0.0">
+</prefixes>
+<ignoredtables encoding="UTF-8" version="1.0.0.0">
+  <value description="Auditing data entities">^(.*history.*|.+_old|.*audit.*)$</value>
+  <value description="Template data entities">^(.*template.*)$</value>
+  <value description="Temporary data entities">^(.+temp|.*session.*|.*error.*|.*search.*|.*login.*|.*logon.*|.*filter.*)$</value>
+  <value description="Translation extension entities">^(.+_l|.+_lang)$</value>
+  <value description="Status entities">^(.+status)$</value>
+  <value description="Lookup entities">^(lkp_.+|.+types?|.+_t)$</value>
+</ignoredtables>
+</setup>
